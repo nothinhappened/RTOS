@@ -1,0 +1,1338 @@
+
+GccApplication2.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000022  00800200  000008bc  00000950  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000008bc  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000022  00800222  00800222  00000972  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000972  2**0
+                  CONTENTS, READONLY
+  4 .debug_aranges 000001a8  00000000  00000000  000009a2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000250a  00000000  00000000  00000b4a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000a04  00000000  00000000  00003054  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00001113  00000000  00000000  00003a58  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000450  00000000  00000000  00004b6c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000b28  00000000  00000000  00004fbc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000ea8  00000000  00000000  00005ae4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000140  00000000  00000000  0000698c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	71 c0       	rjmp	.+226    	; 0xe4 <__ctors_end>
+   2:	00 00       	nop
+   4:	8e c0       	rjmp	.+284    	; 0x122 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	8c c0       	rjmp	.+280    	; 0x122 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	8a c0       	rjmp	.+276    	; 0x122 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	88 c0       	rjmp	.+272    	; 0x122 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	90 c2       	rjmp	.+1312   	; 0x536 <__vector_5>
+  16:	00 00       	nop
+  18:	84 c0       	rjmp	.+264    	; 0x122 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	82 c0       	rjmp	.+260    	; 0x122 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	80 c0       	rjmp	.+256    	; 0x122 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	7e c0       	rjmp	.+252    	; 0x122 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	7c c0       	rjmp	.+248    	; 0x122 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	7a c0       	rjmp	.+244    	; 0x122 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	78 c0       	rjmp	.+240    	; 0x122 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	76 c0       	rjmp	.+236    	; 0x122 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	74 c0       	rjmp	.+232    	; 0x122 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	72 c0       	rjmp	.+228    	; 0x122 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	70 c0       	rjmp	.+224    	; 0x122 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	6e c0       	rjmp	.+220    	; 0x122 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	6c c0       	rjmp	.+216    	; 0x122 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	6a c0       	rjmp	.+212    	; 0x122 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	68 c0       	rjmp	.+208    	; 0x122 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	66 c0       	rjmp	.+204    	; 0x122 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	64 c0       	rjmp	.+200    	; 0x122 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	62 c0       	rjmp	.+196    	; 0x122 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	60 c0       	rjmp	.+192    	; 0x122 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	5e c0       	rjmp	.+188    	; 0x122 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	5c c0       	rjmp	.+184    	; 0x122 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	5a c0       	rjmp	.+180    	; 0x122 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	58 c0       	rjmp	.+176    	; 0x122 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	56 c0       	rjmp	.+172    	; 0x122 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	54 c0       	rjmp	.+168    	; 0x122 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	52 c0       	rjmp	.+164    	; 0x122 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	50 c0       	rjmp	.+160    	; 0x122 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	4e c0       	rjmp	.+156    	; 0x122 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	4c c0       	rjmp	.+152    	; 0x122 <__bad_interrupt>
+  8a:	00 00       	nop
+  8c:	4a c0       	rjmp	.+148    	; 0x122 <__bad_interrupt>
+  8e:	00 00       	nop
+  90:	ed c3       	rjmp	.+2010   	; 0x86c <__vector_36>
+  92:	00 00       	nop
+  94:	46 c0       	rjmp	.+140    	; 0x122 <__bad_interrupt>
+  96:	00 00       	nop
+  98:	44 c0       	rjmp	.+136    	; 0x122 <__bad_interrupt>
+  9a:	00 00       	nop
+  9c:	42 c0       	rjmp	.+132    	; 0x122 <__bad_interrupt>
+  9e:	00 00       	nop
+  a0:	40 c0       	rjmp	.+128    	; 0x122 <__bad_interrupt>
+  a2:	00 00       	nop
+  a4:	3e c0       	rjmp	.+124    	; 0x122 <__bad_interrupt>
+  a6:	00 00       	nop
+  a8:	3c c0       	rjmp	.+120    	; 0x122 <__bad_interrupt>
+  aa:	00 00       	nop
+  ac:	3a c0       	rjmp	.+116    	; 0x122 <__bad_interrupt>
+  ae:	00 00       	nop
+  b0:	38 c0       	rjmp	.+112    	; 0x122 <__bad_interrupt>
+  b2:	00 00       	nop
+  b4:	36 c0       	rjmp	.+108    	; 0x122 <__bad_interrupt>
+  b6:	00 00       	nop
+  b8:	34 c0       	rjmp	.+104    	; 0x122 <__bad_interrupt>
+  ba:	00 00       	nop
+  bc:	32 c0       	rjmp	.+100    	; 0x122 <__bad_interrupt>
+  be:	00 00       	nop
+  c0:	30 c0       	rjmp	.+96     	; 0x122 <__bad_interrupt>
+  c2:	00 00       	nop
+  c4:	2e c0       	rjmp	.+92     	; 0x122 <__bad_interrupt>
+  c6:	00 00       	nop
+  c8:	2c c0       	rjmp	.+88     	; 0x122 <__bad_interrupt>
+  ca:	00 00       	nop
+  cc:	2a c0       	rjmp	.+84     	; 0x122 <__bad_interrupt>
+  ce:	00 00       	nop
+  d0:	28 c0       	rjmp	.+80     	; 0x122 <__bad_interrupt>
+  d2:	00 00       	nop
+  d4:	26 c0       	rjmp	.+76     	; 0x122 <__bad_interrupt>
+  d6:	00 00       	nop
+  d8:	24 c0       	rjmp	.+72     	; 0x122 <__bad_interrupt>
+  da:	00 00       	nop
+  dc:	22 c0       	rjmp	.+68     	; 0x122 <__bad_interrupt>
+  de:	00 00       	nop
+  e0:	20 c0       	rjmp	.+64     	; 0x122 <__bad_interrupt>
+	...
+
+000000e4 <__ctors_end>:
+  e4:	11 24       	eor	r1, r1
+  e6:	1f be       	out	0x3f, r1	; 63
+  e8:	cf ef       	ldi	r28, 0xFF	; 255
+  ea:	d1 e2       	ldi	r29, 0x21	; 33
+  ec:	de bf       	out	0x3e, r29	; 62
+  ee:	cd bf       	out	0x3d, r28	; 61
+  f0:	00 e0       	ldi	r16, 0x00	; 0
+  f2:	0c bf       	out	0x3c, r16	; 60
+
+000000f4 <__do_copy_data>:
+  f4:	12 e0       	ldi	r17, 0x02	; 2
+  f6:	a0 e0       	ldi	r26, 0x00	; 0
+  f8:	b2 e0       	ldi	r27, 0x02	; 2
+  fa:	ec eb       	ldi	r30, 0xBC	; 188
+  fc:	f8 e0       	ldi	r31, 0x08	; 8
+  fe:	00 e0       	ldi	r16, 0x00	; 0
+ 100:	0b bf       	out	0x3b, r16	; 59
+ 102:	02 c0       	rjmp	.+4      	; 0x108 <__do_copy_data+0x14>
+ 104:	07 90       	elpm	r0, Z+
+ 106:	0d 92       	st	X+, r0
+ 108:	a2 32       	cpi	r26, 0x22	; 34
+ 10a:	b1 07       	cpc	r27, r17
+ 10c:	d9 f7       	brne	.-10     	; 0x104 <__do_copy_data+0x10>
+
+0000010e <__do_clear_bss>:
+ 10e:	22 e0       	ldi	r18, 0x02	; 2
+ 110:	a2 e2       	ldi	r26, 0x22	; 34
+ 112:	b2 e0       	ldi	r27, 0x02	; 2
+ 114:	01 c0       	rjmp	.+2      	; 0x118 <.do_clear_bss_start>
+
+00000116 <.do_clear_bss_loop>:
+ 116:	1d 92       	st	X+, r1
+
+00000118 <.do_clear_bss_start>:
+ 118:	a4 34       	cpi	r26, 0x44	; 68
+ 11a:	b2 07       	cpc	r27, r18
+ 11c:	e1 f7       	brne	.-8      	; 0x116 <.do_clear_bss_loop>
+ 11e:	55 d3       	rcall	.+1706   	; 0x7ca <main>
+ 120:	cb c3       	rjmp	.+1942   	; 0x8b8 <_exit>
+
+00000122 <__bad_interrupt>:
+ 122:	6e cf       	rjmp	.-292    	; 0x0 <__vectors>
+
+00000124 <IR_init>:
+#include "ir.h"
+#include "avr/io.h"
+#include <util/delay.h>
+
+void IR_init() {
+	PORTC |= (1 << PC2);	
+ 124:	42 9a       	sbi	0x08, 2	; 8
+	DDRL |= (1<<PL5);
+ 126:	ea e0       	ldi	r30, 0x0A	; 10
+ 128:	f1 e0       	ldi	r31, 0x01	; 1
+ 12a:	80 81       	ld	r24, Z
+ 12c:	80 62       	ori	r24, 0x20	; 32
+ 12e:	80 83       	st	Z, r24
+	TCCR5A = 0;
+ 130:	a0 e2       	ldi	r26, 0x20	; 32
+ 132:	b1 e0       	ldi	r27, 0x01	; 1
+ 134:	1c 92       	st	X, r1
+	TCCR5B = 0;
+ 136:	e1 e2       	ldi	r30, 0x21	; 33
+ 138:	f1 e0       	ldi	r31, 0x01	; 1
+ 13a:	10 82       	st	Z, r1
+	//Set to Fast PWM mode 15
+	TCCR5A |= (1<<WGM50) | (1<<WGM51);
+ 13c:	8c 91       	ld	r24, X
+ 13e:	83 60       	ori	r24, 0x03	; 3
+ 140:	8c 93       	st	X, r24
+	TCCR5B |= (1<<WGM52) | (1<<WGM53);
+ 142:	80 81       	ld	r24, Z
+ 144:	88 61       	ori	r24, 0x18	; 24
+ 146:	80 83       	st	Z, r24
+
+	TCCR5B |= (1<<CS50);
+ 148:	80 81       	ld	r24, Z
+ 14a:	81 60       	ori	r24, 0x01	; 1
+ 14c:	80 83       	st	Z, r24
+	OCR5A=420;  //38khz
+ 14e:	84 ea       	ldi	r24, 0xA4	; 164
+ 150:	91 e0       	ldi	r25, 0x01	; 1
+ 152:	90 93 29 01 	sts	0x0129, r25
+ 156:	80 93 28 01 	sts	0x0128, r24
+	OCR5C = 210;//50% duty cycle
+ 15a:	82 ed       	ldi	r24, 0xD2	; 210
+ 15c:	90 e0       	ldi	r25, 0x00	; 0
+ 15e:	90 93 2d 01 	sts	0x012D, r25
+ 162:	80 93 2c 01 	sts	0x012C, r24
+	PORTC &= ~(1 << PC2);
+ 166:	42 98       	cbi	0x08, 2	; 8
+	TCNT5 = 0;
+ 168:	10 92 25 01 	sts	0x0125, r1
+ 16c:	10 92 24 01 	sts	0x0124, r1
+ 170:	08 95       	ret
+
+00000172 <get_status>:
+}
+
+void Radio_Flush()
+{
+	send_instruction(FLUSH_TX, NULL, NULL, 0);
+	send_instruction(FLUSH_RX, NULL, NULL, 0);
+ 172:	cf 93       	push	r28
+ 174:	df 93       	push	r29
+ 176:	c2 e0       	ldi	r28, 0x02	; 2
+ 178:	d1 e0       	ldi	r29, 0x01	; 1
+ 17a:	88 81       	ld	r24, Y
+ 17c:	8f 7b       	andi	r24, 0xBF	; 191
+ 17e:	88 83       	st	Y, r24
+ 180:	8f ef       	ldi	r24, 0xFF	; 255
+ 182:	8c d2       	rcall	.+1304   	; 0x69c <SPI_Write_Byte>
+ 184:	98 81       	ld	r25, Y
+ 186:	90 64       	ori	r25, 0x40	; 64
+ 188:	98 83       	st	Y, r25
+ 18a:	df 91       	pop	r29
+ 18c:	cf 91       	pop	r28
+ 18e:	08 95       	ret
+
+00000190 <set_register>:
+ 190:	ef 92       	push	r14
+ 192:	ff 92       	push	r15
+ 194:	0f 93       	push	r16
+ 196:	1f 93       	push	r17
+ 198:	cf 93       	push	r28
+ 19a:	df 93       	push	r29
+ 19c:	8b 01       	movw	r16, r22
+ 19e:	e4 2e       	mov	r14, r20
+ 1a0:	c2 e0       	ldi	r28, 0x02	; 2
+ 1a2:	d1 e0       	ldi	r29, 0x01	; 1
+ 1a4:	98 81       	ld	r25, Y
+ 1a6:	9f 7b       	andi	r25, 0xBF	; 191
+ 1a8:	98 83       	st	Y, r25
+ 1aa:	8f 71       	andi	r24, 0x1F	; 31
+ 1ac:	80 62       	ori	r24, 0x20	; 32
+ 1ae:	76 d2       	rcall	.+1260   	; 0x69c <SPI_Write_Byte>
+ 1b0:	f8 2e       	mov	r15, r24
+ 1b2:	6e 2d       	mov	r22, r14
+ 1b4:	c8 01       	movw	r24, r16
+ 1b6:	63 d2       	rcall	.+1222   	; 0x67e <SPI_Write_Block>
+ 1b8:	88 81       	ld	r24, Y
+ 1ba:	80 64       	ori	r24, 0x40	; 64
+ 1bc:	88 83       	st	Y, r24
+ 1be:	8f 2d       	mov	r24, r15
+ 1c0:	df 91       	pop	r29
+ 1c2:	cf 91       	pop	r28
+ 1c4:	1f 91       	pop	r17
+ 1c6:	0f 91       	pop	r16
+ 1c8:	ff 90       	pop	r15
+ 1ca:	ef 90       	pop	r14
+ 1cc:	08 95       	ret
+
+000001ce <reset_pipe0_address>:
+ 1ce:	80 91 1c 02 	lds	r24, 0x021C
+ 1d2:	88 23       	and	r24, r24
+ 1d4:	29 f0       	breq	.+10     	; 0x1e0 <reset_pipe0_address+0x12>
+ 1d6:	45 e0       	ldi	r20, 0x05	; 5
+ 1d8:	67 e1       	ldi	r22, 0x17	; 23
+ 1da:	72 e0       	ldi	r23, 0x02	; 2
+ 1dc:	8a e0       	ldi	r24, 0x0A	; 10
+ 1de:	d8 cf       	rjmp	.-80     	; 0x190 <set_register>
+ 1e0:	08 95       	ret
+
+000001e2 <send_instruction>:
+ 1e2:	ff 92       	push	r15
+ 1e4:	0f 93       	push	r16
+ 1e6:	1f 93       	push	r17
+ 1e8:	cf 93       	push	r28
+ 1ea:	df 93       	push	r29
+ 1ec:	8b 01       	movw	r16, r22
+ 1ee:	ea 01       	movw	r28, r20
+ 1f0:	f2 2e       	mov	r15, r18
+ 1f2:	e2 e0       	ldi	r30, 0x02	; 2
+ 1f4:	f1 e0       	ldi	r31, 0x01	; 1
+ 1f6:	90 81       	ld	r25, Z
+ 1f8:	9f 7b       	andi	r25, 0xBF	; 191
+ 1fa:	90 83       	st	Z, r25
+ 1fc:	4f d2       	rcall	.+1182   	; 0x69c <SPI_Write_Byte>
+ 1fe:	ff 20       	and	r15, r15
+ 200:	51 f0       	breq	.+20     	; 0x216 <send_instruction+0x34>
+ 202:	20 97       	sbiw	r28, 0x00	; 0
+ 204:	21 f4       	brne	.+8      	; 0x20e <send_instruction+0x2c>
+ 206:	6f 2d       	mov	r22, r15
+ 208:	c8 01       	movw	r24, r16
+ 20a:	39 d2       	rcall	.+1138   	; 0x67e <SPI_Write_Block>
+ 20c:	04 c0       	rjmp	.+8      	; 0x216 <send_instruction+0x34>
+ 20e:	4f 2d       	mov	r20, r15
+ 210:	be 01       	movw	r22, r28
+ 212:	c8 01       	movw	r24, r16
+ 214:	21 d2       	rcall	.+1090   	; 0x658 <SPI_ReadWrite_Block>
+ 216:	e2 e0       	ldi	r30, 0x02	; 2
+ 218:	f1 e0       	ldi	r31, 0x01	; 1
+ 21a:	80 81       	ld	r24, Z
+ 21c:	80 64       	ori	r24, 0x40	; 64
+ 21e:	80 83       	st	Z, r24
+ 220:	df 91       	pop	r29
+ 222:	cf 91       	pop	r28
+ 224:	1f 91       	pop	r17
+ 226:	0f 91       	pop	r16
+ 228:	ff 90       	pop	r15
+ 22a:	08 95       	ret
+
+0000022c <get_register>:
+ 22c:	ef 92       	push	r14
+ 22e:	ff 92       	push	r15
+ 230:	0f 93       	push	r16
+ 232:	1f 93       	push	r17
+ 234:	cf 93       	push	r28
+ 236:	df 93       	push	r29
+ 238:	06 2f       	mov	r16, r22
+ 23a:	f7 2e       	mov	r15, r23
+ 23c:	14 2f       	mov	r17, r20
+ 23e:	44 23       	and	r20, r20
+ 240:	49 f0       	breq	.+18     	; 0x254 <get_register+0x28>
+ 242:	36 2f       	mov	r19, r22
+ 244:	e6 2f       	mov	r30, r22
+ 246:	f7 2f       	mov	r31, r23
+ 248:	2f ef       	ldi	r18, 0xFF	; 255
+ 24a:	21 93       	st	Z+, r18
+ 24c:	9e 2f       	mov	r25, r30
+ 24e:	93 1b       	sub	r25, r19
+ 250:	91 17       	cp	r25, r17
+ 252:	d8 f3       	brcs	.-10     	; 0x24a <get_register+0x1e>
+ 254:	c2 e0       	ldi	r28, 0x02	; 2
+ 256:	d1 e0       	ldi	r29, 0x01	; 1
+ 258:	98 81       	ld	r25, Y
+ 25a:	9f 7b       	andi	r25, 0xBF	; 191
+ 25c:	98 83       	st	Y, r25
+ 25e:	8f 71       	andi	r24, 0x1F	; 31
+ 260:	1d d2       	rcall	.+1082   	; 0x69c <SPI_Write_Byte>
+ 262:	e8 2e       	mov	r14, r24
+ 264:	41 2f       	mov	r20, r17
+ 266:	60 2f       	mov	r22, r16
+ 268:	7f 2d       	mov	r23, r15
+ 26a:	80 e0       	ldi	r24, 0x00	; 0
+ 26c:	90 e0       	ldi	r25, 0x00	; 0
+ 26e:	f4 d1       	rcall	.+1000   	; 0x658 <SPI_ReadWrite_Block>
+ 270:	88 81       	ld	r24, Y
+ 272:	80 64       	ori	r24, 0x40	; 64
+ 274:	88 83       	st	Y, r24
+ 276:	8e 2d       	mov	r24, r14
+ 278:	df 91       	pop	r29
+ 27a:	cf 91       	pop	r28
+ 27c:	1f 91       	pop	r17
+ 27e:	0f 91       	pop	r16
+ 280:	ff 90       	pop	r15
+ 282:	ef 90       	pop	r14
+ 284:	08 95       	ret
+
+00000286 <set_rx_mode>:
+ 286:	cf 93       	push	r28
+ 288:	df 93       	push	r29
+ 28a:	1f 92       	push	r1
+ 28c:	cd b7       	in	r28, 0x3d	; 61
+ 28e:	de b7       	in	r29, 0x3e	; 62
+ 290:	41 e0       	ldi	r20, 0x01	; 1
+ 292:	be 01       	movw	r22, r28
+ 294:	6f 5f       	subi	r22, 0xFF	; 255
+ 296:	7f 4f       	sbci	r23, 0xFF	; 255
+ 298:	80 e0       	ldi	r24, 0x00	; 0
+ 29a:	c8 df       	rcall	.-112    	; 0x22c <get_register>
+ 29c:	89 81       	ldd	r24, Y+1	; 0x01
+ 29e:	80 fd       	sbrc	r24, 0
+ 2a0:	14 c0       	rjmp	.+40     	; 0x2ca <set_rx_mode+0x44>
+ 2a2:	81 60       	ori	r24, 0x01	; 1
+ 2a4:	89 83       	std	Y+1, r24	; 0x01
+ 2a6:	41 e0       	ldi	r20, 0x01	; 1
+ 2a8:	be 01       	movw	r22, r28
+ 2aa:	6f 5f       	subi	r22, 0xFF	; 255
+ 2ac:	7f 4f       	sbci	r23, 0xFF	; 255
+ 2ae:	80 e0       	ldi	r24, 0x00	; 0
+ 2b0:	6f df       	rcall	.-290    	; 0x190 <set_register>
+ 2b2:	83 e0       	ldi	r24, 0x03	; 3
+ 2b4:	91 e0       	ldi	r25, 0x01	; 1
+ 2b6:	01 97       	sbiw	r24, 0x01	; 1
+ 2b8:	f1 f7       	brne	.-4      	; 0x2b6 <set_rx_mode+0x30>
+ 2ba:	00 c0       	rjmp	.+0      	; 0x2bc <set_rx_mode+0x36>
+ 2bc:	00 00       	nop
+ 2be:	83 e0       	ldi	r24, 0x03	; 3
+ 2c0:	91 e0       	ldi	r25, 0x01	; 1
+ 2c2:	01 97       	sbiw	r24, 0x01	; 1
+ 2c4:	f1 f7       	brne	.-4      	; 0x2c2 <set_rx_mode+0x3c>
+ 2c6:	00 c0       	rjmp	.+0      	; 0x2c8 <set_rx_mode+0x42>
+ 2c8:	00 00       	nop
+ 2ca:	0f 90       	pop	r0
+ 2cc:	df 91       	pop	r29
+ 2ce:	cf 91       	pop	r28
+ 2d0:	08 95       	ret
+
+000002d2 <Radio_Init>:
+ 2d2:	cf 93       	push	r28
+ 2d4:	df 93       	push	r29
+ 2d6:	1f 92       	push	r1
+ 2d8:	cd b7       	in	r28, 0x3d	; 61
+ 2da:	de b7       	in	r29, 0x3e	; 62
+ 2dc:	10 92 22 02 	sts	0x0222, r1
+ 2e0:	e1 e0       	ldi	r30, 0x01	; 1
+ 2e2:	f1 e0       	ldi	r31, 0x01	; 1
+ 2e4:	80 81       	ld	r24, Z
+ 2e6:	88 61       	ori	r24, 0x18	; 24
+ 2e8:	80 83       	st	Z, r24
+ 2ea:	a2 e0       	ldi	r26, 0x02	; 2
+ 2ec:	b1 e0       	ldi	r27, 0x01	; 1
+ 2ee:	8c 91       	ld	r24, X
+ 2f0:	8f 7e       	andi	r24, 0xEF	; 239
+ 2f2:	8c 93       	st	X, r24
+ 2f4:	8c 91       	ld	r24, X
+ 2f6:	87 7f       	andi	r24, 0xF7	; 247
+ 2f8:	8c 93       	st	X, r24
+ 2fa:	8c 91       	ld	r24, X
+ 2fc:	8f 7d       	andi	r24, 0xDF	; 223
+ 2fe:	8c 93       	st	X, r24
+ 300:	80 81       	ld	r24, Z
+ 302:	80 62       	ori	r24, 0x20	; 32
+ 304:	80 83       	st	Z, r24
+ 306:	80 81       	ld	r24, Z
+ 308:	80 64       	ori	r24, 0x40	; 64
+ 30a:	80 83       	st	Z, r24
+ 30c:	6c 98       	cbi	0x0d, 4	; 13
+ 30e:	ea e6       	ldi	r30, 0x6A	; 106
+ 310:	f0 e0       	ldi	r31, 0x00	; 0
+ 312:	80 81       	ld	r24, Z
+ 314:	82 60       	ori	r24, 0x02	; 2
+ 316:	80 83       	st	Z, r24
+ 318:	80 81       	ld	r24, Z
+ 31a:	8e 7f       	andi	r24, 0xFE	; 254
+ 31c:	80 83       	st	Z, r24
+ 31e:	ec 9a       	sbi	0x1d, 4	; 29
+ 320:	e4 9a       	sbi	0x1c, 4	; 28
+ 322:	8f ed       	ldi	r24, 0xDF	; 223
+ 324:	9b ea       	ldi	r25, 0xAB	; 171
+ 326:	01 97       	sbiw	r24, 0x01	; 1
+ 328:	f1 f7       	brne	.-4      	; 0x326 <Radio_Init+0x54>
+ 32a:	00 c0       	rjmp	.+0      	; 0x32c <Radio_Init+0x5a>
+ 32c:	00 00       	nop
+ 32e:	87 d1       	rcall	.+782    	; 0x63e <SPI_Init>
+ 330:	83 e0       	ldi	r24, 0x03	; 3
+ 332:	89 83       	std	Y+1, r24	; 0x01
+ 334:	41 e0       	ldi	r20, 0x01	; 1
+ 336:	be 01       	movw	r22, r28
+ 338:	6f 5f       	subi	r22, 0xFF	; 255
+ 33a:	7f 4f       	sbci	r23, 0xFF	; 255
+ 33c:	29 df       	rcall	.-430    	; 0x190 <set_register>
+ 33e:	85 e1       	ldi	r24, 0x15	; 21
+ 340:	89 83       	std	Y+1, r24	; 0x01
+ 342:	41 e0       	ldi	r20, 0x01	; 1
+ 344:	be 01       	movw	r22, r28
+ 346:	6f 5f       	subi	r22, 0xFF	; 255
+ 348:	7f 4f       	sbci	r23, 0xFF	; 255
+ 34a:	84 e0       	ldi	r24, 0x04	; 4
+ 34c:	21 df       	rcall	.-446    	; 0x190 <set_register>
+ 34e:	88 e6       	ldi	r24, 0x68	; 104
+ 350:	89 83       	std	Y+1, r24	; 0x01
+ 352:	41 e0       	ldi	r20, 0x01	; 1
+ 354:	be 01       	movw	r22, r28
+ 356:	6f 5f       	subi	r22, 0xFF	; 255
+ 358:	7f 4f       	sbci	r23, 0xFF	; 255
+ 35a:	85 e0       	ldi	r24, 0x05	; 5
+ 35c:	19 df       	rcall	.-462    	; 0x190 <set_register>
+ 35e:	89 e0       	ldi	r24, 0x09	; 9
+ 360:	89 83       	std	Y+1, r24	; 0x01
+ 362:	41 e0       	ldi	r20, 0x01	; 1
+ 364:	be 01       	movw	r22, r28
+ 366:	6f 5f       	subi	r22, 0xFF	; 255
+ 368:	7f 4f       	sbci	r23, 0xFF	; 255
+ 36a:	86 e0       	ldi	r24, 0x06	; 6
+ 36c:	11 df       	rcall	.-478    	; 0x190 <set_register>
+ 36e:	8f e0       	ldi	r24, 0x0F	; 15
+ 370:	89 83       	std	Y+1, r24	; 0x01
+ 372:	41 e0       	ldi	r20, 0x01	; 1
+ 374:	be 01       	movw	r22, r28
+ 376:	6f 5f       	subi	r22, 0xFF	; 255
+ 378:	7f 4f       	sbci	r23, 0xFF	; 255
+ 37a:	80 e0       	ldi	r24, 0x00	; 0
+ 37c:	09 df       	rcall	.-494    	; 0x190 <set_register>
+ 37e:	80 e7       	ldi	r24, 0x70	; 112
+ 380:	89 83       	std	Y+1, r24	; 0x01
+ 382:	41 e0       	ldi	r20, 0x01	; 1
+ 384:	be 01       	movw	r22, r28
+ 386:	6f 5f       	subi	r22, 0xFF	; 255
+ 388:	7f 4f       	sbci	r23, 0xFF	; 255
+ 38a:	87 e0       	ldi	r24, 0x07	; 7
+ 38c:	01 df       	rcall	.-510    	; 0x190 <set_register>
+ 38e:	20 e0       	ldi	r18, 0x00	; 0
+ 390:	40 e0       	ldi	r20, 0x00	; 0
+ 392:	50 e0       	ldi	r21, 0x00	; 0
+ 394:	60 e0       	ldi	r22, 0x00	; 0
+ 396:	70 e0       	ldi	r23, 0x00	; 0
+ 398:	81 ee       	ldi	r24, 0xE1	; 225
+ 39a:	23 df       	rcall	.-442    	; 0x1e2 <send_instruction>
+ 39c:	20 e0       	ldi	r18, 0x00	; 0
+ 39e:	40 e0       	ldi	r20, 0x00	; 0
+ 3a0:	50 e0       	ldi	r21, 0x00	; 0
+ 3a2:	60 e0       	ldi	r22, 0x00	; 0
+ 3a4:	70 e0       	ldi	r23, 0x00	; 0
+ 3a6:	82 ee       	ldi	r24, 0xE2	; 226
+ 3a8:	1c df       	rcall	.-456    	; 0x1e2 <send_instruction>
+ 3aa:	8f e3       	ldi	r24, 0x3F	; 63
+ 3ac:	9f e1       	ldi	r25, 0x1F	; 31
+ 3ae:	01 97       	sbiw	r24, 0x01	; 1
+ 3b0:	f1 f7       	brne	.-4      	; 0x3ae <Radio_Init+0xdc>
+ 3b2:	00 c0       	rjmp	.+0      	; 0x3b4 <Radio_Init+0xe2>
+ 3b4:	00 00       	nop
+ 3b6:	e2 e0       	ldi	r30, 0x02	; 2
+ 3b8:	f1 e0       	ldi	r31, 0x01	; 1
+ 3ba:	80 81       	ld	r24, Z
+ 3bc:	80 62       	ori	r24, 0x20	; 32
+ 3be:	80 83       	st	Z, r24
+ 3c0:	80 81       	ld	r24, Z
+ 3c2:	80 61       	ori	r24, 0x10	; 16
+ 3c4:	80 83       	st	Z, r24
+ 3c6:	0f 90       	pop	r0
+ 3c8:	df 91       	pop	r29
+ 3ca:	cf 91       	pop	r28
+ 3cc:	08 95       	ret
+
+000003ce <Radio_Configure_Rx>:
+ 3ce:	cf 92       	push	r12
+ 3d0:	df 92       	push	r13
+ 3d2:	ef 92       	push	r14
+ 3d4:	ff 92       	push	r15
+ 3d6:	0f 93       	push	r16
+ 3d8:	1f 93       	push	r17
+ 3da:	cf 93       	push	r28
+ 3dc:	df 93       	push	r29
+ 3de:	1f 92       	push	r1
+ 3e0:	cd b7       	in	r28, 0x3d	; 61
+ 3e2:	de b7       	in	r29, 0x3e	; 62
+ 3e4:	d8 2e       	mov	r13, r24
+ 3e6:	c4 2e       	mov	r12, r20
+ 3e8:	85 e0       	ldi	r24, 0x05	; 5
+ 3ea:	8d 15       	cp	r24, r13
+ 3ec:	08 f4       	brcc	.+2      	; 0x3f0 <Radio_Configure_Rx+0x22>
+ 3ee:	6f c0       	rjmp	.+222    	; 0x4ce <Radio_Configure_Rx+0x100>
+ 3f0:	d1 10       	cpse	r13, r1
+ 3f2:	11 c0       	rjmp	.+34     	; 0x416 <Radio_Configure_Rx+0x48>
+ 3f4:	fb 01       	movw	r30, r22
+ 3f6:	80 81       	ld	r24, Z
+ 3f8:	80 93 17 02 	sts	0x0217, r24
+ 3fc:	81 81       	ldd	r24, Z+1	; 0x01
+ 3fe:	80 93 18 02 	sts	0x0218, r24
+ 402:	82 81       	ldd	r24, Z+2	; 0x02
+ 404:	80 93 19 02 	sts	0x0219, r24
+ 408:	83 81       	ldd	r24, Z+3	; 0x03
+ 40a:	80 93 1a 02 	sts	0x021A, r24
+ 40e:	84 81       	ldd	r24, Z+4	; 0x04
+ 410:	80 93 1b 02 	sts	0x021B, r24
+ 414:	03 c0       	rjmp	.+6      	; 0x41c <Radio_Configure_Rx+0x4e>
+ 416:	f1 e0       	ldi	r31, 0x01	; 1
+ 418:	fd 15       	cp	r31, r13
+ 41a:	10 f0       	brcs	.+4      	; 0x420 <Radio_Configure_Rx+0x52>
+ 41c:	45 e0       	ldi	r20, 0x05	; 5
+ 41e:	01 c0       	rjmp	.+2      	; 0x422 <Radio_Configure_Rx+0x54>
+ 420:	41 e0       	ldi	r20, 0x01	; 1
+ 422:	8a e0       	ldi	r24, 0x0A	; 10
+ 424:	8d 0d       	add	r24, r13
+ 426:	b4 de       	rcall	.-664    	; 0x190 <set_register>
+ 428:	41 e0       	ldi	r20, 0x01	; 1
+ 42a:	be 01       	movw	r22, r28
+ 42c:	6f 5f       	subi	r22, 0xFF	; 255
+ 42e:	7f 4f       	sbci	r23, 0xFF	; 255
+ 430:	81 e0       	ldi	r24, 0x01	; 1
+ 432:	fc de       	rcall	.-520    	; 0x22c <get_register>
+ 434:	ed 2c       	mov	r14, r13
+ 436:	f1 2c       	mov	r15, r1
+ 438:	01 e0       	ldi	r16, 0x01	; 1
+ 43a:	10 e0       	ldi	r17, 0x00	; 0
+ 43c:	0d 2c       	mov	r0, r13
+ 43e:	02 c0       	rjmp	.+4      	; 0x444 <Radio_Configure_Rx+0x76>
+ 440:	00 0f       	add	r16, r16
+ 442:	11 1f       	adc	r17, r17
+ 444:	0a 94       	dec	r0
+ 446:	e2 f7       	brpl	.-8      	; 0x440 <Radio_Configure_Rx+0x72>
+ 448:	89 81       	ldd	r24, Y+1	; 0x01
+ 44a:	80 2b       	or	r24, r16
+ 44c:	89 83       	std	Y+1, r24	; 0x01
+ 44e:	41 e0       	ldi	r20, 0x01	; 1
+ 450:	be 01       	movw	r22, r28
+ 452:	6f 5f       	subi	r22, 0xFF	; 255
+ 454:	7f 4f       	sbci	r23, 0xFF	; 255
+ 456:	81 e0       	ldi	r24, 0x01	; 1
+ 458:	9b de       	rcall	.-714    	; 0x190 <set_register>
+ 45a:	c1 10       	cpse	r12, r1
+ 45c:	08 c0       	rjmp	.+16     	; 0x46e <Radio_Configure_Rx+0xa0>
+ 45e:	1f c0       	rjmp	.+62     	; 0x49e <Radio_Configure_Rx+0xd0>
+ 460:	41 e0       	ldi	r20, 0x01	; 1
+ 462:	be 01       	movw	r22, r28
+ 464:	6f 5f       	subi	r22, 0xFF	; 255
+ 466:	7f 4f       	sbci	r23, 0xFF	; 255
+ 468:	82 e0       	ldi	r24, 0x02	; 2
+ 46a:	92 de       	rcall	.-732    	; 0x190 <set_register>
+ 46c:	30 c0       	rjmp	.+96     	; 0x4ce <Radio_Configure_Rx+0x100>
+ 46e:	80 e2       	ldi	r24, 0x20	; 32
+ 470:	89 83       	std	Y+1, r24	; 0x01
+ 472:	41 e0       	ldi	r20, 0x01	; 1
+ 474:	be 01       	movw	r22, r28
+ 476:	6f 5f       	subi	r22, 0xFF	; 255
+ 478:	7f 4f       	sbci	r23, 0xFF	; 255
+ 47a:	81 e1       	ldi	r24, 0x11	; 17
+ 47c:	8d 0d       	add	r24, r13
+ 47e:	88 de       	rcall	.-752    	; 0x190 <set_register>
+ 480:	89 81       	ldd	r24, Y+1	; 0x01
+ 482:	f7 01       	movw	r30, r14
+ 484:	e4 5e       	subi	r30, 0xE4	; 228
+ 486:	fd 4f       	sbci	r31, 0xFD	; 253
+ 488:	80 83       	st	Z, r24
+ 48a:	41 e0       	ldi	r20, 0x01	; 1
+ 48c:	be 01       	movw	r22, r28
+ 48e:	6f 5f       	subi	r22, 0xFF	; 255
+ 490:	7f 4f       	sbci	r23, 0xFF	; 255
+ 492:	82 e0       	ldi	r24, 0x02	; 2
+ 494:	cb de       	rcall	.-618    	; 0x22c <get_register>
+ 496:	89 81       	ldd	r24, Y+1	; 0x01
+ 498:	08 2b       	or	r16, r24
+ 49a:	09 83       	std	Y+1, r16	; 0x01
+ 49c:	e1 cf       	rjmp	.-62     	; 0x460 <Radio_Configure_Rx+0x92>
+ 49e:	19 82       	std	Y+1, r1	; 0x01
+ 4a0:	41 e0       	ldi	r20, 0x01	; 1
+ 4a2:	be 01       	movw	r22, r28
+ 4a4:	6f 5f       	subi	r22, 0xFF	; 255
+ 4a6:	7f 4f       	sbci	r23, 0xFF	; 255
+ 4a8:	81 e1       	ldi	r24, 0x11	; 17
+ 4aa:	8d 0d       	add	r24, r13
+ 4ac:	71 de       	rcall	.-798    	; 0x190 <set_register>
+ 4ae:	89 81       	ldd	r24, Y+1	; 0x01
+ 4b0:	f7 01       	movw	r30, r14
+ 4b2:	e4 5e       	subi	r30, 0xE4	; 228
+ 4b4:	fd 4f       	sbci	r31, 0xFD	; 253
+ 4b6:	80 83       	st	Z, r24
+ 4b8:	41 e0       	ldi	r20, 0x01	; 1
+ 4ba:	be 01       	movw	r22, r28
+ 4bc:	6f 5f       	subi	r22, 0xFF	; 255
+ 4be:	7f 4f       	sbci	r23, 0xFF	; 255
+ 4c0:	82 e0       	ldi	r24, 0x02	; 2
+ 4c2:	b4 de       	rcall	.-664    	; 0x22c <get_register>
+ 4c4:	00 95       	com	r16
+ 4c6:	89 81       	ldd	r24, Y+1	; 0x01
+ 4c8:	08 23       	and	r16, r24
+ 4ca:	09 83       	std	Y+1, r16	; 0x01
+ 4cc:	c9 cf       	rjmp	.-110    	; 0x460 <Radio_Configure_Rx+0x92>
+ 4ce:	0f 90       	pop	r0
+ 4d0:	df 91       	pop	r29
+ 4d2:	cf 91       	pop	r28
+ 4d4:	1f 91       	pop	r17
+ 4d6:	0f 91       	pop	r16
+ 4d8:	ff 90       	pop	r15
+ 4da:	ef 90       	pop	r14
+ 4dc:	df 90       	pop	r13
+ 4de:	cf 90       	pop	r12
+ 4e0:	08 95       	ret
+
+000004e2 <Radio_Configure>:
+ 4e2:	0f 93       	push	r16
+ 4e4:	1f 93       	push	r17
+ 4e6:	cf 93       	push	r28
+ 4e8:	df 93       	push	r29
+ 4ea:	1f 92       	push	r1
+ 4ec:	cd b7       	in	r28, 0x3d	; 61
+ 4ee:	de b7       	in	r29, 0x3e	; 62
+ 4f0:	08 2f       	mov	r16, r24
+ 4f2:	16 2f       	mov	r17, r22
+ 4f4:	64 30       	cpi	r22, 0x04	; 4
+ 4f6:	c8 f4       	brcc	.+50     	; 0x52a <Radio_Configure+0x48>
+ 4f8:	82 30       	cpi	r24, 0x02	; 2
+ 4fa:	b8 f4       	brcc	.+46     	; 0x52a <Radio_Configure+0x48>
+ 4fc:	41 e0       	ldi	r20, 0x01	; 1
+ 4fe:	be 01       	movw	r22, r28
+ 500:	6f 5f       	subi	r22, 0xFF	; 255
+ 502:	7f 4f       	sbci	r23, 0xFF	; 255
+ 504:	86 e0       	ldi	r24, 0x06	; 6
+ 506:	92 de       	rcall	.-732    	; 0x22c <get_register>
+ 508:	11 0f       	add	r17, r17
+ 50a:	89 81       	ldd	r24, Y+1	; 0x01
+ 50c:	86 60       	ori	r24, 0x06	; 6
+ 50e:	18 23       	and	r17, r24
+ 510:	00 23       	and	r16, r16
+ 512:	19 f0       	breq	.+6      	; 0x51a <Radio_Configure+0x38>
+ 514:	18 60       	ori	r17, 0x08	; 8
+ 516:	19 83       	std	Y+1, r17	; 0x01
+ 518:	02 c0       	rjmp	.+4      	; 0x51e <Radio_Configure+0x3c>
+ 51a:	17 7f       	andi	r17, 0xF7	; 247
+ 51c:	19 83       	std	Y+1, r17	; 0x01
+ 51e:	41 e0       	ldi	r20, 0x01	; 1
+ 520:	be 01       	movw	r22, r28
+ 522:	6f 5f       	subi	r22, 0xFF	; 255
+ 524:	7f 4f       	sbci	r23, 0xFF	; 255
+ 526:	86 e0       	ldi	r24, 0x06	; 6
+ 528:	33 de       	rcall	.-922    	; 0x190 <set_register>
+ 52a:	0f 90       	pop	r0
+ 52c:	df 91       	pop	r29
+ 52e:	cf 91       	pop	r28
+ 530:	1f 91       	pop	r17
+ 532:	0f 91       	pop	r16
+ 534:	08 95       	ret
+
+00000536 <__vector_5>:
+}
+
+
+// Interrupt handler
+ISR(INT4_vect)
+{
+ 536:	1f 92       	push	r1
+ 538:	0f 92       	push	r0
+ 53a:	0f b6       	in	r0, 0x3f	; 63
+ 53c:	0f 92       	push	r0
+ 53e:	11 24       	eor	r1, r1
+ 540:	0b b6       	in	r0, 0x3b	; 59
+ 542:	0f 92       	push	r0
+ 544:	2f 93       	push	r18
+ 546:	3f 93       	push	r19
+ 548:	4f 93       	push	r20
+ 54a:	5f 93       	push	r21
+ 54c:	6f 93       	push	r22
+ 54e:	7f 93       	push	r23
+ 550:	8f 93       	push	r24
+ 552:	9f 93       	push	r25
+ 554:	af 93       	push	r26
+ 556:	bf 93       	push	r27
+ 558:	ef 93       	push	r30
+ 55a:	ff 93       	push	r31
+ 55c:	cf 93       	push	r28
+ 55e:	df 93       	push	r29
+ 560:	1f 92       	push	r1
+ 562:	cd b7       	in	r28, 0x3d	; 61
+ 564:	de b7       	in	r29, 0x3e	; 62
+    uint8_t status;
+    uint8_t pipe_number;
+
+	DEBUG_2_LOW;
+ 566:	e2 e0       	ldi	r30, 0x02	; 2
+ 568:	f1 e0       	ldi	r31, 0x01	; 1
+ 56a:	80 81       	ld	r24, Z
+ 56c:	8f 7e       	andi	r24, 0xEF	; 239
+ 56e:	80 83       	st	Z, r24
+    CE_LOW();
+ 570:	80 81       	ld	r24, Z
+ 572:	8f 7d       	andi	r24, 0xDF	; 223
+ 574:	80 83       	st	Z, r24
+
+    status = get_status();
+ 576:	fd dd       	rcall	.-1030   	; 0x172 <get_status>
+ 578:	89 83       	std	Y+1, r24	; 0x01
+
+    if (status & _BV(RX_DR))
+ 57a:	86 ff       	sbrs	r24, 6
+ 57c:	03 c0       	rjmp	.+6      	; 0x584 <__vector_5+0x4e>
+    {
+    	pipe_number =  (status & 0xE) >> 1;
+ 57e:	8e 70       	andi	r24, 0x0E	; 14
+    	radio_rxhandler(pipe_number);
+ 580:	86 95       	lsr	r24
+ 582:	22 d1       	rcall	.+580    	; 0x7c8 <radio_rxhandler>
+    }
+    // We can get the TX_DS or the MAX_RT interrupt, but not both.
+    if (status & _BV(TX_DS))
+ 584:	89 81       	ldd	r24, Y+1	; 0x01
+ 586:	85 ff       	sbrs	r24, 5
+ 588:	1b c0       	rjmp	.+54     	; 0x5c0 <__vector_5+0x8a>
+    {
+        // if there's nothing left to transmit, switch back to receive mode.
+        transmit_lock = 0;
+ 58a:	10 92 22 02 	sts	0x0222, r1
+        reset_pipe0_address();
+ 58e:	1f de       	rcall	.-962    	; 0x1ce <reset_pipe0_address>
+        set_rx_mode();
+ 590:	7a de       	rcall	.-780    	; 0x286 <set_rx_mode>
+
+    	// indicate in the history that a packet was transmitted successfully by appending a 1.
+    	tx_history <<= 1;
+ 592:	80 91 15 02 	lds	r24, 0x0215
+ 596:	90 91 16 02 	lds	r25, 0x0216
+ 59a:	88 0f       	add	r24, r24
+ 59c:	99 1f       	adc	r25, r25
+ 59e:	90 93 16 02 	sts	0x0216, r25
+ 5a2:	80 93 15 02 	sts	0x0215, r24
+    	tx_history |= 1;
+ 5a6:	80 91 15 02 	lds	r24, 0x0215
+ 5aa:	90 91 16 02 	lds	r25, 0x0216
+ 5ae:	81 60       	ori	r24, 0x01	; 1
+ 5b0:	90 93 16 02 	sts	0x0216, r25
+ 5b4:	80 93 15 02 	sts	0x0215, r24
+
+    	tx_last_status = RADIO_TX_SUCCESS;
+ 5b8:	81 e0       	ldi	r24, 0x01	; 1
+ 5ba:	80 93 14 02 	sts	0x0214, r24
+ 5be:	19 c0       	rjmp	.+50     	; 0x5f2 <__vector_5+0xbc>
+    }
+    else if (status & _BV(MAX_RT))
+ 5c0:	84 ff       	sbrs	r24, 4
+ 5c2:	17 c0       	rjmp	.+46     	; 0x5f2 <__vector_5+0xbc>
+    {
+        send_instruction(FLUSH_TX, NULL, NULL, 0);
+ 5c4:	20 e0       	ldi	r18, 0x00	; 0
+ 5c6:	40 e0       	ldi	r20, 0x00	; 0
+ 5c8:	50 e0       	ldi	r21, 0x00	; 0
+ 5ca:	60 e0       	ldi	r22, 0x00	; 0
+ 5cc:	70 e0       	ldi	r23, 0x00	; 0
+ 5ce:	81 ee       	ldi	r24, 0xE1	; 225
+ 5d0:	08 de       	rcall	.-1008   	; 0x1e2 <send_instruction>
+
+    	transmit_lock = 0;
+ 5d2:	10 92 22 02 	sts	0x0222, r1
+    	reset_pipe0_address();
+ 5d6:	fb dd       	rcall	.-1034   	; 0x1ce <reset_pipe0_address>
+		set_rx_mode();
+ 5d8:	56 de       	rcall	.-852    	; 0x286 <set_rx_mode>
+    	// indicate in the history that a packet was dropped by appending a 0.
+    	tx_history <<= 1;
+ 5da:	80 91 15 02 	lds	r24, 0x0215
+ 5de:	90 91 16 02 	lds	r25, 0x0216
+ 5e2:	88 0f       	add	r24, r24
+ 5e4:	99 1f       	adc	r25, r25
+ 5e6:	90 93 16 02 	sts	0x0216, r25
+ 5ea:	80 93 15 02 	sts	0x0215, r24
+
+    	tx_last_status = RADIO_TX_MAX_RT;
+ 5ee:	10 92 14 02 	sts	0x0214, r1
+    }
+	
+    // clear the interrupt flags.
+	status = _BV(RX_DR) | _BV(TX_DS) | _BV(MAX_RT);
+ 5f2:	80 e7       	ldi	r24, 0x70	; 112
+ 5f4:	89 83       	std	Y+1, r24	; 0x01
+	set_register(STATUS, &status, 1);
+ 5f6:	41 e0       	ldi	r20, 0x01	; 1
+ 5f8:	be 01       	movw	r22, r28
+ 5fa:	6f 5f       	subi	r22, 0xFF	; 255
+ 5fc:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5fe:	87 e0       	ldi	r24, 0x07	; 7
+ 600:	c7 dd       	rcall	.-1138   	; 0x190 <set_register>
+	DEBUG_2_HIGH;
+ 602:	e2 e0       	ldi	r30, 0x02	; 2
+ 604:	f1 e0       	ldi	r31, 0x01	; 1
+ 606:	80 81       	ld	r24, Z
+ 608:	80 61       	ori	r24, 0x10	; 16
+ 60a:	80 83       	st	Z, r24
+	
+    CE_HIGH();
+ 60c:	80 81       	ld	r24, Z
+ 60e:	80 62       	ori	r24, 0x20	; 32
+ 610:	80 83       	st	Z, r24
+}
+ 612:	0f 90       	pop	r0
+ 614:	df 91       	pop	r29
+ 616:	cf 91       	pop	r28
+ 618:	ff 91       	pop	r31
+ 61a:	ef 91       	pop	r30
+ 61c:	bf 91       	pop	r27
+ 61e:	af 91       	pop	r26
+ 620:	9f 91       	pop	r25
+ 622:	8f 91       	pop	r24
+ 624:	7f 91       	pop	r23
+ 626:	6f 91       	pop	r22
+ 628:	5f 91       	pop	r21
+ 62a:	4f 91       	pop	r20
+ 62c:	3f 91       	pop	r19
+ 62e:	2f 91       	pop	r18
+ 630:	0f 90       	pop	r0
+ 632:	0b be       	out	0x3b, r0	; 59
+ 634:	0f 90       	pop	r0
+ 636:	0f be       	out	0x3f, r0	; 63
+ 638:	0f 90       	pop	r0
+ 63a:	1f 90       	pop	r1
+ 63c:	18 95       	reti
+
+0000063e <SPI_Init>:
+	// The DDR operations are pretty fragile and doing this less awkwardly breaks SPI.  I don't care enough
+	// to figure out why right now.  Note that SPI_SS is the actual SPI port's SS pin, which is not necessarily
+	// the SS pin that's used for a given slave.  Anything that uses this driver must handle its own slave selection.
+	// It must set its SS pin direction to output, set the pin low before doing an SPI operation, and set it high
+	// when the SPI operation is complete.
+    SPI_DDR &= ~(_BV(SPI_MOSI)|_BV(SPI_MISO)|_BV(SPI_SS)|_BV(SPI_SCK));
+ 63e:	84 b1       	in	r24, 0x04	; 4
+ 640:	80 7f       	andi	r24, 0xF0	; 240
+ 642:	84 b9       	out	0x04, r24	; 4
+    // Define the following pins as output
+    SPI_DDR |= (_BV(SPI_MOSI) | _BV(SPI_SS) | _BV(SPI_SCK));
+ 644:	84 b1       	in	r24, 0x04	; 4
+ 646:	87 60       	ori	r24, 0x07	; 7
+ 648:	84 b9       	out	0x04, r24	; 4
+	 * SPR1 | SPR0 - Determines SCK frequency along with the SPI2X bit in SPSR.  See Table 17-4 in hardware manual [p178].
+	 * bit 0
+	 */
+
+    // Set the AT90's SS pin high during config (this disables the Flash RAM or something)
+    SPI_PORT |= _BV(SPI_SS);
+ 64a:	28 9a       	sbi	0x05, 0	; 5
+
+	SPCR = _BV(SPE) | _BV(MSTR);	// enable SPI, set as master, set prescaler to f(osc)/4
+ 64c:	80 e5       	ldi	r24, 0x50	; 80
+ 64e:	8c bd       	out	0x2c, r24	; 44
+
+	SPSR = _BV(SPI2X);							// Double SCK to f(osc)/2 (4 MHz)
+ 650:	81 e0       	ldi	r24, 0x01	; 1
+ 652:	8d bd       	out	0x2d, r24	; 45
+
+	SPI_PORT &= ~_BV(SPI_SS);
+ 654:	28 98       	cbi	0x05, 0	; 5
+ 656:	08 95       	ret
+
+00000658 <SPI_ReadWrite_Block>:
+}
+
+void SPI_ReadWrite_Block(uint8_t* data, uint8_t* buffer, uint8_t len)
+{
+    uint8_t i;
+    for (i = 0; i < len; i++) {
+ 658:	44 23       	and	r20, r20
+ 65a:	81 f0       	breq	.+32     	; 0x67c <SPI_ReadWrite_Block+0x24>
+ 65c:	28 2f       	mov	r18, r24
+ 65e:	a6 2f       	mov	r26, r22
+ 660:	b7 2f       	mov	r27, r23
+ 662:	e8 2f       	mov	r30, r24
+ 664:	f9 2f       	mov	r31, r25
+          SPDR = data[i];
+ 666:	81 91       	ld	r24, Z+
+ 668:	8e bd       	out	0x2e, r24	; 46
+          SPI_WAIT();
+ 66a:	0d b4       	in	r0, 0x2d	; 45
+ 66c:	07 fe       	sbrs	r0, 7
+ 66e:	fd cf       	rjmp	.-6      	; 0x66a <SPI_ReadWrite_Block+0x12>
+          buffer[i] = SPDR;
+ 670:	8e b5       	in	r24, 0x2e	; 46
+ 672:	8d 93       	st	X+, r24
+ 674:	8e 2f       	mov	r24, r30
+ 676:	82 1b       	sub	r24, r18
+}
+
+void SPI_ReadWrite_Block(uint8_t* data, uint8_t* buffer, uint8_t len)
+{
+    uint8_t i;
+    for (i = 0; i < len; i++) {
+ 678:	84 17       	cp	r24, r20
+ 67a:	a8 f3       	brcs	.-22     	; 0x666 <SPI_ReadWrite_Block+0xe>
+ 67c:	08 95       	ret
+
+0000067e <SPI_Write_Block>:
+}
+
+void SPI_Write_Block(uint8_t* data, uint8_t len)
+{
+    uint8_t i;
+    for (i = 0; i < len; i++) {
+ 67e:	66 23       	and	r22, r22
+ 680:	61 f0       	breq	.+24     	; 0x69a <SPI_Write_Block+0x1c>
+ 682:	28 2f       	mov	r18, r24
+ 684:	e8 2f       	mov	r30, r24
+ 686:	f9 2f       	mov	r31, r25
+          SPDR = data[i];
+ 688:	81 91       	ld	r24, Z+
+ 68a:	8e bd       	out	0x2e, r24	; 46
+          SPI_WAIT();
+ 68c:	0d b4       	in	r0, 0x2d	; 45
+ 68e:	07 fe       	sbrs	r0, 7
+ 690:	fd cf       	rjmp	.-6      	; 0x68c <SPI_Write_Block+0xe>
+ 692:	8e 2f       	mov	r24, r30
+ 694:	82 1b       	sub	r24, r18
+}
+
+void SPI_Write_Block(uint8_t* data, uint8_t len)
+{
+    uint8_t i;
+    for (i = 0; i < len; i++) {
+ 696:	86 17       	cp	r24, r22
+ 698:	b8 f3       	brcs	.-18     	; 0x688 <SPI_Write_Block+0xa>
+ 69a:	08 95       	ret
+
+0000069c <SPI_Write_Byte>:
+    }
+}
+
+uint8_t SPI_Write_Byte(uint8_t byte)
+{
+    SPDR = byte;
+ 69c:	8e bd       	out	0x2e, r24	; 46
+    SPI_WAIT();
+ 69e:	0d b4       	in	r0, 0x2d	; 45
+ 6a0:	07 fe       	sbrs	r0, 7
+ 6a2:	fd cf       	rjmp	.-6      	; 0x69e <SPI_Write_Byte+0x2>
+    return SPDR;
+ 6a4:	8e b5       	in	r24, 0x2e	; 46
+}
+ 6a6:	08 95       	ret
+
+000006a8 <Roomba_Init>:
+		sensor_packet->capacity.bytes.high_byte = uart_get_byte(8);
+		sensor_packet->capacity.bytes.low_byte = uart_get_byte(9);
+		break;
+	}
+	uart_reset_receive();
+}
+ 6a8:	f8 94       	cli
+ 6aa:	8f ef       	ldi	r24, 0xFF	; 255
+ 6ac:	8a b9       	out	0x0a, r24	; 10
+ 6ae:	1b b8       	out	0x0b, r1	; 11
+ 6b0:	2f ef       	ldi	r18, 0xFF	; 255
+ 6b2:	89 e6       	ldi	r24, 0x69	; 105
+ 6b4:	98 e1       	ldi	r25, 0x18	; 24
+ 6b6:	21 50       	subi	r18, 0x01	; 1
+ 6b8:	80 40       	sbci	r24, 0x00	; 0
+ 6ba:	90 40       	sbci	r25, 0x00	; 0
+ 6bc:	e1 f7       	brne	.-8      	; 0x6b6 <Roomba_Init+0xe>
+ 6be:	00 c0       	rjmp	.+0      	; 0x6c0 <Roomba_Init+0x18>
+ 6c0:	00 00       	nop
+ 6c2:	59 9a       	sbi	0x0b, 1	; 11
+ 6c4:	8f ef       	ldi	r24, 0xFF	; 255
+ 6c6:	87 b9       	out	0x07, r24	; 7
+ 6c8:	88 b1       	in	r24, 0x08	; 8
+ 6ca:	8c 63       	ori	r24, 0x3C	; 60
+ 6cc:	88 b9       	out	0x08, r24	; 8
+ 6ce:	ea e0       	ldi	r30, 0x0A	; 10
+ 6d0:	f1 e0       	ldi	r31, 0x01	; 1
+ 6d2:	80 81       	ld	r24, Z
+ 6d4:	84 60       	ori	r24, 0x04	; 4
+ 6d6:	80 83       	st	Z, r24
+ 6d8:	eb e0       	ldi	r30, 0x0B	; 11
+ 6da:	f1 e0       	ldi	r31, 0x01	; 1
+ 6dc:	80 81       	ld	r24, Z
+ 6de:	8b 7f       	andi	r24, 0xFB	; 251
+ 6e0:	80 83       	st	Z, r24
+ 6e2:	2f ef       	ldi	r18, 0xFF	; 255
+ 6e4:	89 e6       	ldi	r24, 0x69	; 105
+ 6e6:	98 e1       	ldi	r25, 0x18	; 24
+ 6e8:	21 50       	subi	r18, 0x01	; 1
+ 6ea:	80 40       	sbci	r24, 0x00	; 0
+ 6ec:	90 40       	sbci	r25, 0x00	; 0
+ 6ee:	e1 f7       	brne	.-8      	; 0x6e8 <Roomba_Init+0x40>
+ 6f0:	00 c0       	rjmp	.+0      	; 0x6f2 <Roomba_Init+0x4a>
+ 6f2:	00 00       	nop
+ 6f4:	80 81       	ld	r24, Z
+ 6f6:	84 60       	ori	r24, 0x04	; 4
+ 6f8:	80 83       	st	Z, r24
+ 6fa:	2f ef       	ldi	r18, 0xFF	; 255
+ 6fc:	89 e6       	ldi	r24, 0x69	; 105
+ 6fe:	98 e1       	ldi	r25, 0x18	; 24
+ 700:	21 50       	subi	r18, 0x01	; 1
+ 702:	80 40       	sbci	r24, 0x00	; 0
+ 704:	90 40       	sbci	r25, 0x00	; 0
+ 706:	e1 f7       	brne	.-8      	; 0x700 <Roomba_Init+0x58>
+ 708:	00 c0       	rjmp	.+0      	; 0x70a <Roomba_Init+0x62>
+ 70a:	00 00       	nop
+ 70c:	83 e0       	ldi	r24, 0x03	; 3
+ 70e:	6e d0       	rcall	.+220    	; 0x7ec <Roomba_UART_Init>
+ 710:	80 e8       	ldi	r24, 0x80	; 128
+ 712:	64 d0       	rcall	.+200    	; 0x7dc <Roomba_Send_Byte>
+ 714:	2f ef       	ldi	r18, 0xFF	; 255
+ 716:	89 ef       	ldi	r24, 0xF9	; 249
+ 718:	90 e0       	ldi	r25, 0x00	; 0
+ 71a:	21 50       	subi	r18, 0x01	; 1
+ 71c:	80 40       	sbci	r24, 0x00	; 0
+ 71e:	90 40       	sbci	r25, 0x00	; 0
+ 720:	e1 f7       	brne	.-8      	; 0x71a <Roomba_Init+0x72>
+ 722:	00 c0       	rjmp	.+0      	; 0x724 <Roomba_Init+0x7c>
+ 724:	00 00       	nop
+ 726:	81 e8       	ldi	r24, 0x81	; 129
+ 728:	59 d0       	rcall	.+178    	; 0x7dc <Roomba_Send_Byte>
+ 72a:	87 e0       	ldi	r24, 0x07	; 7
+ 72c:	57 d0       	rcall	.+174    	; 0x7dc <Roomba_Send_Byte>
+ 72e:	2f ef       	ldi	r18, 0xFF	; 255
+ 730:	81 ee       	ldi	r24, 0xE1	; 225
+ 732:	94 e0       	ldi	r25, 0x04	; 4
+ 734:	21 50       	subi	r18, 0x01	; 1
+ 736:	80 40       	sbci	r24, 0x00	; 0
+ 738:	90 40       	sbci	r25, 0x00	; 0
+ 73a:	e1 f7       	brne	.-8      	; 0x734 <Roomba_Init+0x8c>
+ 73c:	00 c0       	rjmp	.+0      	; 0x73e <Roomba_Init+0x96>
+ 73e:	00 00       	nop
+ 740:	80 e0       	ldi	r24, 0x00	; 0
+ 742:	54 d0       	rcall	.+168    	; 0x7ec <Roomba_UART_Init>
+ 744:	80 e8       	ldi	r24, 0x80	; 128
+ 746:	4a d0       	rcall	.+148    	; 0x7dc <Roomba_Send_Byte>
+ 748:	2f ef       	ldi	r18, 0xFF	; 255
+ 74a:	89 ef       	ldi	r24, 0xF9	; 249
+ 74c:	90 e0       	ldi	r25, 0x00	; 0
+ 74e:	21 50       	subi	r18, 0x01	; 1
+ 750:	80 40       	sbci	r24, 0x00	; 0
+ 752:	90 40       	sbci	r25, 0x00	; 0
+ 754:	e1 f7       	brne	.-8      	; 0x74e <Roomba_Init+0xa6>
+ 756:	00 c0       	rjmp	.+0      	; 0x758 <Roomba_Init+0xb0>
+ 758:	00 00       	nop
+ 75a:	83 e8       	ldi	r24, 0x83	; 131
+ 75c:	3f d0       	rcall	.+126    	; 0x7dc <Roomba_Send_Byte>
+ 75e:	2f ef       	ldi	r18, 0xFF	; 255
+ 760:	89 ef       	ldi	r24, 0xF9	; 249
+ 762:	90 e0       	ldi	r25, 0x00	; 0
+ 764:	21 50       	subi	r18, 0x01	; 1
+ 766:	80 40       	sbci	r24, 0x00	; 0
+ 768:	90 40       	sbci	r25, 0x00	; 0
+ 76a:	e1 f7       	brne	.-8      	; 0x764 <Roomba_Init+0xbc>
+ 76c:	00 c0       	rjmp	.+0      	; 0x76e <Roomba_Init+0xc6>
+ 76e:	00 00       	nop
+ 770:	d9 dc       	rcall	.-1614   	; 0x124 <IR_init>
+ 772:	2f ef       	ldi	r18, 0xFF	; 255
+ 774:	87 ea       	ldi	r24, 0xA7	; 167
+ 776:	91 e6       	ldi	r25, 0x61	; 97
+ 778:	21 50       	subi	r18, 0x01	; 1
+ 77a:	80 40       	sbci	r24, 0x00	; 0
+ 77c:	90 40       	sbci	r25, 0x00	; 0
+ 77e:	e1 f7       	brne	.-8      	; 0x778 <Roomba_Init+0xd0>
+ 780:	00 c0       	rjmp	.+0      	; 0x782 <Roomba_Init+0xda>
+ 782:	00 00       	nop
+ 784:	a6 dd       	rcall	.-1204   	; 0x2d2 <Radio_Init>
+ 786:	41 e0       	ldi	r20, 0x01	; 1
+ 788:	60 e0       	ldi	r22, 0x00	; 0
+ 78a:	72 e0       	ldi	r23, 0x02	; 2
+ 78c:	80 e0       	ldi	r24, 0x00	; 0
+ 78e:	1f de       	rcall	.-962    	; 0x3ce <Radio_Configure_Rx>
+ 790:	63 e0       	ldi	r22, 0x03	; 3
+ 792:	81 e0       	ldi	r24, 0x01	; 1
+ 794:	a6 de       	rcall	.-692    	; 0x4e2 <Radio_Configure>
+ 796:	78 94       	sei
+ 798:	08 95       	ret
+
+0000079a <Roomba_Drive>:
+
+void Roomba_Drive( int16_t velocity, int16_t radius )
+{
+ 79a:	0f 93       	push	r16
+ 79c:	1f 93       	push	r17
+ 79e:	cf 93       	push	r28
+ 7a0:	df 93       	push	r29
+ 7a2:	18 2f       	mov	r17, r24
+ 7a4:	09 2f       	mov	r16, r25
+ 7a6:	c6 2f       	mov	r28, r22
+ 7a8:	d7 2f       	mov	r29, r23
+	Roomba_Send_Byte(DRIVE);
+ 7aa:	89 e8       	ldi	r24, 0x89	; 137
+ 7ac:	17 d0       	rcall	.+46     	; 0x7dc <Roomba_Send_Byte>
+	Roomba_Send_Byte(HIGH_BYTE(velocity));
+ 7ae:	80 2f       	mov	r24, r16
+ 7b0:	15 d0       	rcall	.+42     	; 0x7dc <Roomba_Send_Byte>
+	Roomba_Send_Byte(LOW_BYTE(velocity));
+ 7b2:	81 2f       	mov	r24, r17
+ 7b4:	13 d0       	rcall	.+38     	; 0x7dc <Roomba_Send_Byte>
+	Roomba_Send_Byte(HIGH_BYTE(radius));
+ 7b6:	8d 2f       	mov	r24, r29
+ 7b8:	11 d0       	rcall	.+34     	; 0x7dc <Roomba_Send_Byte>
+	Roomba_Send_Byte(LOW_BYTE(radius));
+ 7ba:	8c 2f       	mov	r24, r28
+ 7bc:	0f d0       	rcall	.+30     	; 0x7dc <Roomba_Send_Byte>
+}
+ 7be:	df 91       	pop	r29
+ 7c0:	cf 91       	pop	r28
+ 7c2:	1f 91       	pop	r17
+ 7c4:	0f 91       	pop	r16
+ 7c6:	08 95       	ret
+
+000007c8 <radio_rxhandler>:
+
+void radio_rxhandler(uint8_t pipenumber) {
+ 7c8:	08 95       	ret
+
+000007ca <main>:
+	
+}
+
+int main(void) {
+	Roomba_Init();
+ 7ca:	6e df       	rcall	.-292    	; 0x6a8 <Roomba_Init>
+	Roomba_Drive(100,-1);
+ 7cc:	6f ef       	ldi	r22, 0xFF	; 255
+ 7ce:	7f ef       	ldi	r23, 0xFF	; 255
+ 7d0:	84 e6       	ldi	r24, 0x64	; 100
+ 7d2:	90 e0       	ldi	r25, 0x00	; 0
+ 7d4:	e2 df       	rcall	.-60     	; 0x79a <Roomba_Drive>
+ 7d6:	80 e0       	ldi	r24, 0x00	; 0
+ 7d8:	90 e0       	ldi	r25, 0x00	; 0
+ 7da:	08 95       	ret
+
+000007dc <Roomba_Send_Byte>:
+	return uart_buffer_index;
+}
+
+void uart_reset_receive(void)
+{
+	uart_buffer_index = 0;
+ 7dc:	e8 ec       	ldi	r30, 0xC8	; 200
+ 7de:	f0 e0       	ldi	r31, 0x00	; 0
+ 7e0:	90 81       	ld	r25, Z
+ 7e2:	95 ff       	sbrs	r25, 5
+ 7e4:	fd cf       	rjmp	.-6      	; 0x7e0 <Roomba_Send_Byte+0x4>
+ 7e6:	80 93 ce 00 	sts	0x00CE, r24
+ 7ea:	08 95       	ret
+
+000007ec <Roomba_UART_Init>:
+ 7ec:	2f b7       	in	r18, 0x3f	; 63
+ 7ee:	f8 94       	cli
+ 7f0:	e5 e6       	ldi	r30, 0x65	; 101
+ 7f2:	f0 e0       	ldi	r31, 0x00	; 0
+ 7f4:	90 81       	ld	r25, Z
+ 7f6:	9e 7f       	andi	r25, 0xFE	; 254
+ 7f8:	90 83       	st	Z, r25
+ 7fa:	81 30       	cpi	r24, 0x01	; 1
+ 7fc:	69 f0       	breq	.+26     	; 0x818 <Roomba_UART_Init+0x2c>
+ 7fe:	28 f0       	brcs	.+10     	; 0x80a <Roomba_UART_Init+0x1e>
+ 800:	82 30       	cpi	r24, 0x02	; 2
+ 802:	89 f0       	breq	.+34     	; 0x826 <Roomba_UART_Init+0x3a>
+ 804:	83 30       	cpi	r24, 0x03	; 3
+ 806:	b1 f0       	breq	.+44     	; 0x834 <Roomba_UART_Init+0x48>
+ 808:	1c c0       	rjmp	.+56     	; 0x842 <Roomba_UART_Init+0x56>
+ 80a:	83 e3       	ldi	r24, 0x33	; 51
+ 80c:	90 e0       	ldi	r25, 0x00	; 0
+ 80e:	90 93 cd 00 	sts	0x00CD, r25
+ 812:	80 93 cc 00 	sts	0x00CC, r24
+ 816:	1b c0       	rjmp	.+54     	; 0x84e <Roomba_UART_Init+0x62>
+ 818:	89 e1       	ldi	r24, 0x19	; 25
+ 81a:	90 e0       	ldi	r25, 0x00	; 0
+ 81c:	90 93 cd 00 	sts	0x00CD, r25
+ 820:	80 93 cc 00 	sts	0x00CC, r24
+ 824:	14 c0       	rjmp	.+40     	; 0x84e <Roomba_UART_Init+0x62>
+ 826:	80 e1       	ldi	r24, 0x10	; 16
+ 828:	90 e0       	ldi	r25, 0x00	; 0
+ 82a:	90 93 cd 00 	sts	0x00CD, r25
+ 82e:	80 93 cc 00 	sts	0x00CC, r24
+ 832:	0d c0       	rjmp	.+26     	; 0x84e <Roomba_UART_Init+0x62>
+ 834:	88 e0       	ldi	r24, 0x08	; 8
+ 836:	90 e0       	ldi	r25, 0x00	; 0
+ 838:	90 93 cd 00 	sts	0x00CD, r25
+ 83c:	80 93 cc 00 	sts	0x00CC, r24
+ 840:	06 c0       	rjmp	.+12     	; 0x84e <Roomba_UART_Init+0x62>
+ 842:	80 e1       	ldi	r24, 0x10	; 16
+ 844:	90 e0       	ldi	r25, 0x00	; 0
+ 846:	90 93 cd 00 	sts	0x00CD, r25
+ 84a:	80 93 cc 00 	sts	0x00CC, r24
+ 84e:	e8 ec       	ldi	r30, 0xC8	; 200
+ 850:	f0 e0       	ldi	r31, 0x00	; 0
+ 852:	80 e4       	ldi	r24, 0x40	; 64
+ 854:	80 83       	st	Z, r24
+ 856:	88 e0       	ldi	r24, 0x08	; 8
+ 858:	80 93 c9 00 	sts	0x00C9, r24
+ 85c:	86 e0       	ldi	r24, 0x06	; 6
+ 85e:	80 93 ca 00 	sts	0x00CA, r24
+ 862:	80 81       	ld	r24, Z
+ 864:	8d 7f       	andi	r24, 0xFD	; 253
+ 866:	80 83       	st	Z, r24
+ 868:	2f bf       	out	0x3f, r18	; 63
+ 86a:	08 95       	ret
+
+0000086c <__vector_36>:
+
+/**
+ * UART receive byte ISR
+ */
+ISR(USART1_RX_vect)
+{
+ 86c:	1f 92       	push	r1
+ 86e:	0f 92       	push	r0
+ 870:	0f b6       	in	r0, 0x3f	; 63
+ 872:	0f 92       	push	r0
+ 874:	11 24       	eor	r1, r1
+ 876:	0b b6       	in	r0, 0x3b	; 59
+ 878:	0f 92       	push	r0
+ 87a:	8f 93       	push	r24
+ 87c:	9f 93       	push	r25
+ 87e:	ef 93       	push	r30
+ 880:	ff 93       	push	r31
+    uart_buffer[uart_buffer_index] = UDR1;
+ 882:	e0 91 23 02 	lds	r30, 0x0223
+ 886:	f0 e0       	ldi	r31, 0x00	; 0
+ 888:	80 91 ce 00 	lds	r24, 0x00CE
+ 88c:	ec 5d       	subi	r30, 0xDC	; 220
+ 88e:	fd 4f       	sbci	r31, 0xFD	; 253
+ 890:	80 83       	st	Z, r24
+    uart_buffer_index = (uart_buffer_index + 1) % UART_BUFFER_SIZE;
+ 892:	80 91 23 02 	lds	r24, 0x0223
+ 896:	90 e0       	ldi	r25, 0x00	; 0
+ 898:	01 96       	adiw	r24, 0x01	; 1
+ 89a:	8f 71       	andi	r24, 0x1F	; 31
+ 89c:	90 78       	andi	r25, 0x80	; 128
+ 89e:	80 93 23 02 	sts	0x0223, r24
+}
+ 8a2:	ff 91       	pop	r31
+ 8a4:	ef 91       	pop	r30
+ 8a6:	9f 91       	pop	r25
+ 8a8:	8f 91       	pop	r24
+ 8aa:	0f 90       	pop	r0
+ 8ac:	0b be       	out	0x3b, r0	; 59
+ 8ae:	0f 90       	pop	r0
+ 8b0:	0f be       	out	0x3f, r0	; 63
+ 8b2:	0f 90       	pop	r0
+ 8b4:	1f 90       	pop	r1
+ 8b6:	18 95       	reti
+
+000008b8 <_exit>:
+ 8b8:	f8 94       	cli
+
+000008ba <__stop_program>:
+ 8ba:	ff cf       	rjmp	.-2      	; 0x8ba <__stop_program>

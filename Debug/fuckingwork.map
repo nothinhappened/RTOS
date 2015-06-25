@@ -1,0 +1,982 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+                              cops_and_robbers.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+                              ir/ir.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+                              os.o (__umulhisi3)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+ .text          0x00000000        0x0 cops_and_robbers.o
+ .data          0x00000000        0x0 cops_and_robbers.o
+ .bss           0x00000000        0x0 cops_and_robbers.o
+ .data.ROOMBA_FREQUENCIES
+                0x00000000        0x4 cops_and_robbers.o
+ .data.BASE_FREQUENCY
+                0x00000000        0x1 cops_and_robbers.o
+ .text          0x00000000        0x0 ir/ir.o
+ .data          0x00000000        0x0 ir/ir.o
+ .bss           0x00000000        0x0 ir/ir.o
+ .bss.outputByte
+                0x00000000        0x1 ir/ir.o
+ .text          0x00000000        0x0 os.o
+ .data          0x00000000        0x0 os.o
+ .bss           0x00000000        0x0 os.o
+ .text.Task_GetArg
+                0x00000000       0x18 os.o
+ .text.Service_Init
+                0x00000000       0x22 os.o
+ .text.Service_Subscribe
+                0x00000000       0x6c os.o
+ .text.Service_Publish
+                0x00000000       0x3e os.o
+ .bss._ZZ12Service_InitE12next_service
+                0x00000000        0x1 os.o
+ .bss._ZL13service_array
+                0x00000000      0x5fa os.o
+ .text          0x00000000        0x0 oskernel.o
+ .data          0x00000000        0x0 oskernel.o
+ .bss           0x00000000        0x0 oskernel.o
+ .text          0x00000000        0x0 periodic_scheduler.o
+ .data          0x00000000        0x0 periodic_scheduler.o
+ .bss           0x00000000        0x0 periodic_scheduler.o
+ .text          0x00000000        0x0 radio/radio.o
+ .data          0x00000000        0x0 radio/radio.o
+ .bss           0x00000000        0x0 radio/radio.o
+ .text._Z14Radio_TransmitP3_rp14_radio_tx_wait
+                0x00000000       0xb2 radio/radio.o
+ .text._Z18Radio_Success_Ratev
+                0x00000000       0x40 radio/radio.o
+ .text._Z11Radio_Flushv
+                0x00000000       0x22 radio/radio.o
+ .text          0x00000000        0x0 radio/spi.o
+ .data          0x00000000        0x0 radio/spi.o
+ .bss           0x00000000        0x0 radio/spi.o
+ .text          0x00000000        0x0 roomba/roomba.o
+ .data          0x00000000        0x0 roomba/roomba.o
+ .bss           0x00000000        0x0 roomba/roomba.o
+ .text._Z13Roomba_Finishv
+                0x00000000        0x8 roomba/roomba.o
+ .text._Z25Roomba_UpdateSensorPacket4_rsgP20roomba_sensor_data_t
+                0x00000000      0x152 roomba/roomba.o
+ .text          0x00000000        0x0 tasks/tasks.o
+ .data          0x00000000        0x0 tasks/tasks.o
+ .bss           0x00000000        0x0 tasks/tasks.o
+ .text._Z13rr_stopRotatev
+                0x00000000       0x2e tasks/tasks.o
+ .text._Z3diev  0x00000000       0x1a tasks/tasks.o
+ .text._Z12pp_handle_irv
+                0x00000000       0x2c tasks/tasks.o
+ .text._Z21isEmpty_network_queuev
+                0x00000000       0x16 tasks/tasks.o
+ .bss._ZL9error_msg
+                0x00000000        0x1 tasks/tasks.o
+ .text          0x00000000        0x0 uart/uart.o
+ .data          0x00000000        0x0 uart/uart.o
+ .bss           0x00000000        0x0 uart/uart.o
+ .text._Z19uart_bytes_receivedv
+                0x00000000        0x6 uart/uart.o
+ .text._Z18uart_reset_receivev
+                0x00000000        0x6 uart/uart.o
+ .text._Z13uart_get_bytei
+                0x00000000       0x14 uart/uart.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+LOAD cops_and_robbers.o
+LOAD ir/ir.o
+LOAD os.o
+LOAD oskernel.o
+LOAD periodic_scheduler.o
+LOAD radio/radio.o
+LOAD radio/spi.o
+LOAD roomba/roomba.o
+LOAD tasks/tasks.o
+LOAD uart/uart.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6\libm.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6\libm.a
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1bea
+ *(.vectors)
+ .vectors       0x00000000       0xe4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000e4                . = ALIGN (0x2)
+                0x000000e4                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000e4        0x0 linker stubs
+ *(.trampolines*)
+                0x000000e4                __trampolines_end = .
+ *(.progmem*)
+                0x000000e4                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000e4                __ctors_start = .
+ *(.ctors)
+                0x000000e4                __ctors_end = .
+                0x000000e4                __dtors_start = .
+ *(.dtors)
+                0x000000e4                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000e4        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+                0x000000e4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000e4       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000f4       0x1a c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_copy_data.o)
+                0x000000f4                __do_copy_data
+ .init4         0x0000010e       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_clear_bss.o)
+                0x0000010e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000011e        0x6 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x00000124        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr6/crtm2560.o
+                0x00000124                __vector_38
+                0x00000124                __vector_22
+                0x00000124                __vector_28
+                0x00000124                __vector_1
+                0x00000124                __vector_32
+                0x00000124                __vector_34
+                0x00000124                __vector_24
+                0x00000124                __vector_12
+                0x00000124                __vector_55
+                0x00000124                __vector_46
+                0x00000124                __bad_interrupt
+                0x00000124                __vector_31
+                0x00000124                __vector_35
+                0x00000124                __vector_39
+                0x00000124                __vector_3
+                0x00000124                __vector_23
+                0x00000124                __vector_30
+                0x00000124                __vector_45
+                0x00000124                __vector_25
+                0x00000124                __vector_11
+                0x00000124                __vector_54
+                0x00000124                __vector_13
+                0x00000124                __vector_19
+                0x00000124                __vector_56
+                0x00000124                __vector_7
+                0x00000124                __vector_49
+                0x00000124                __vector_41
+                0x00000124                __vector_43
+                0x00000124                __vector_27
+                0x00000124                __vector_33
+                0x00000124                __vector_47
+                0x00000124                __vector_52
+                0x00000124                __vector_37
+                0x00000124                __vector_4
+                0x00000124                __vector_44
+                0x00000124                __vector_51
+                0x00000124                __vector_9
+                0x00000124                __vector_2
+                0x00000124                __vector_21
+                0x00000124                __vector_15
+                0x00000124                __vector_29
+                0x00000124                __vector_40
+                0x00000124                __vector_8
+                0x00000124                __vector_26
+                0x00000124                __vector_48
+                0x00000124                __vector_14
+                0x00000124                __vector_53
+                0x00000124                __vector_10
+                0x00000124                __vector_50
+                0x00000124                __vector_16
+                0x00000124                __vector_18
+                0x00000124                __vector_20
+                0x00000126                . = ALIGN (0x2)
+ *(.text.*)
+ .text._Z7IR_initv
+                0x00000126       0x60 ir/ir.o
+                0x00000126                _Z7IR_initv
+ .text.__vector_6
+                0x00000186       0x62 ir/ir.o
+                0x00000186                __vector_6
+ .text.__vector_42
+                0x000001e8       0xb6 ir/ir.o
+                0x000001e8                __vector_42
+ .text._Z15enable_interuptv
+                0x0000029e        0x6 ir/ir.o
+                0x0000029e                _Z15enable_interuptv
+ .text._Z16disable_interuptv
+                0x000002a4       0x14 ir/ir.o
+                0x000002a4                _Z16disable_interuptv
+ .text._Z4markv
+                0x000002b8       0x14 ir/ir.o
+                0x000002b8                _Z4markv
+ .text._Z5spacev
+                0x000002cc       0x14 ir/ir.o
+                0x000002cc                _Z5spacev
+ .text._Z11IR_transmith
+                0x000002e0       0x48 ir/ir.o
+                0x000002e0                _Z11IR_transmith
+ .text._Z7OS_Initv
+                0x00000328      0x116 os.o
+                0x00000328                _Z7OS_Initv
+ .text.OS_Abort
+                0x0000043e       0x76 os.o
+                0x0000043e                OS_Abort
+ .text.Task_Create_Periodic
+                0x000004b4       0x50 os.o
+                0x000004b4                Task_Create_Periodic
+ .text.Task_Create_System
+                0x00000504       0x32 os.o
+                0x00000504                Task_Create_System
+ .text.Task_Create_RR
+                0x00000536       0x32 os.o
+                0x00000536                Task_Create_RR
+ .text.Task_Next
+                0x00000568       0x24 os.o
+                0x00000568                Task_Next
+ .text.Task_Terminate
+                0x0000058c       0x14 os.o
+                0x0000058c                Task_Terminate
+ .text.Now      0x000005a0       0x50 os.o
+                0x000005a0                Now
+ .text.main     0x000005f0        0x8 os.o
+                0x000005f0                main
+ .text.idle     0x000005f8        0x2 oskernel.o
+                0x000005f8                idle
+ .text.exit_kernel
+                0x000005fa       0xb2 oskernel.o
+                0x000005fa                exit_kernel
+ .text.enter_kernel
+                0x000006ac       0xb2 oskernel.o
+                0x000006ac                enter_kernel
+ .text.__vector_17
+                0x0000075e       0xd6 oskernel.o
+                0x0000075e                __vector_17
+ .text.enqueue  0x00000834       0x30 oskernel.o
+                0x00000834                enqueue
+ .text.kernel_terminate_task
+                0x00000864       0x2a oskernel.o
+                0x00000864                kernel_terminate_task
+ .text.dequeue  0x0000088e       0x20 oskernel.o
+                0x0000088e                dequeue
+ .text.kernel_dispatch
+                0x000008ae       0xf2 oskernel.o
+                0x000008ae                kernel_dispatch
+ .text.kernel_create_task
+                0x000009a0       0xf2 oskernel.o
+                0x000009a0                kernel_create_task
+ .text.initialize_dead_pool_queue
+                0x00000a92       0x3e oskernel.o
+                0x00000a92                initialize_dead_pool_queue
+ .text.kernel_update_ticker
+                0x00000ad0       0x40 oskernel.o
+                0x00000ad0                kernel_update_ticker
+ .text.kernel_handle_request
+                0x00000b10      0x17e oskernel.o
+                0x00000b10                kernel_handle_request
+ .text.kernel_main_loop
+                0x00000c8e        0x8 oskernel.o
+                0x00000c8e                kernel_main_loop
+ .text._delay_25ms
+                0x00000c96        0xe oskernel.o
+                0x00000c96                _delay_25ms
+ .text.Scheduler_Init
+                0x00000ca4        0xc periodic_scheduler.o
+                0x00000ca4                Scheduler_Init
+ .text.Scheduler_StartTask
+                0x00000cb0       0x5c periodic_scheduler.o
+                0x00000cb0                Scheduler_StartTask
+ .text.Scheduler_StopTask
+                0x00000d0c        0x2 periodic_scheduler.o
+                0x00000d0c                Scheduler_StopTask
+ .text.Scheduler_Dispatch
+                0x00000d0e       0xde periodic_scheduler.o
+                0x00000d0e                Scheduler_Dispatch
+ .text.Scheduler_GetTask
+                0x00000dec       0x16 periodic_scheduler.o
+                0x00000dec                Scheduler_GetTask
+ .text._ZL10get_statusv
+                0x00000e02       0x1e radio/radio.o
+ .text._ZL12set_registerhPhh
+                0x00000e20       0x3e radio/radio.o
+ .text._ZL19reset_pipe0_addressv
+                0x00000e5e       0x14 radio/radio.o
+ .text._ZL16send_instructionhPhS_h
+                0x00000e72       0x4a radio/radio.o
+ .text._ZL12get_registerhPhh
+                0x00000ebc       0x5a radio/radio.o
+ .text._ZL11set_rx_modev
+                0x00000f16       0x44 radio/radio.o
+ .text._Z10Radio_Initv
+                0x00000f5a       0xfc radio/radio.o
+                0x00000f5a                _Z10Radio_Initv
+ .text._Z18Radio_Configure_Rx11_radio_pipePh3_ed
+                0x00001056      0x114 radio/radio.o
+                0x00001056                _Z18Radio_Configure_Rx11_radio_pipePh3_ed
+ .text._Z17Radio_Set_Tx_AddrPh
+                0x0000116a       0x2a radio/radio.o
+                0x0000116a                _Z17Radio_Set_Tx_AddrPh
+ .text._Z15Radio_Configure9_radio_dr15_radio_tx_power
+                0x00001194       0x54 radio/radio.o
+                0x00001194                _Z15Radio_Configure9_radio_dr15_radio_tx_power
+ .text._Z13Radio_ReceiveP3_rp
+                0x000011e8       0x6a radio/radio.o
+                0x000011e8                _Z13Radio_ReceiveP3_rp
+ .text.__vector_5
+                0x00001252      0x108 radio/radio.o
+                0x00001252                __vector_5
+ .text._Z8SPI_Initv
+                0x0000135a       0x1a radio/spi.o
+                0x0000135a                _Z8SPI_Initv
+ .text._Z19SPI_ReadWrite_BlockPhS_h
+                0x00001374       0x26 radio/spi.o
+                0x00001374                _Z19SPI_ReadWrite_BlockPhS_h
+ .text._Z15SPI_Write_BlockPhh
+                0x0000139a       0x1e radio/spi.o
+                0x0000139a                _Z15SPI_Write_BlockPhh
+ .text._Z14SPI_Write_Byteh
+                0x000013b8        0xc radio/spi.o
+                0x000013b8                _Z14SPI_Write_Byteh
+ .text._Z11Roomba_Initv
+                0x000013c4       0xe2 roomba/roomba.o
+                0x000013c4                _Z11Roomba_Initv
+ .text._Z12Roomba_Driveii
+                0x000014a6       0x2e roomba/roomba.o
+                0x000014a6                _Z12Roomba_Driveii
+ .text._Z11Roomba_Song11song_struct
+                0x000014d4       0x7c roomba/roomba.o
+                0x000014d4                _Z11Roomba_Song11song_struct
+ .text._Z17Roomba_Write_SongPci
+                0x00001550       0xa2 roomba/roomba.o
+                0x00001550                _Z17Roomba_Write_SongPci
+ .text._Z11Roomba_Playi
+                0x000015f2       0x10 roomba/roomba.o
+                0x000015f2                _Z11Roomba_Playi
+ .text._Z13sys_game_overv
+                0x00001602       0x1a tasks/tasks.o
+                0x00001602                _Z13sys_game_overv
+ .text._Z14rr_startRotatev
+                0x0000161c       0x30 tasks/tasks.o
+                0x0000161c                _Z14rr_startRotatev
+ .text._Z8pp_shootv
+                0x0000164c       0x34 tasks/tasks.o
+                0x0000164c                _Z8pp_shootv
+ .text._Z16sys_play_preludev
+                0x00001680       0x54 tasks/tasks.o
+                0x00001680                _Z16sys_play_preludev
+ .text._Z12ir_rxhandlerh
+                0x000016d4        0xc tasks/tasks.o
+                0x000016d4                _Z12ir_rxhandlerh
+ .text._Z6revivev
+                0x000016e0       0x16 tasks/tasks.o
+                0x000016e0                _Z6revivev
+ .text._Z18push_network_queue7_gs_pkt
+                0x000016f6       0x88 tasks/tasks.o
+                0x000016f6                _Z18push_network_queue7_gs_pkt
+ .text._Z15radio_rxhandlerh
+                0x0000177e       0x4c tasks/tasks.o
+                0x0000177e                _Z15radio_rxhandlerh
+ .text._Z17pop_network_queuev
+                0x000017ca       0xa8 tasks/tasks.o
+                0x000017ca                _Z17pop_network_queuev
+ .text._Z15pp_handlePacketv
+                0x00001872       0x82 tasks/tasks.o
+                0x00001872                _Z15pp_handlePacketv
+ .text._Z11setup_songsv
+                0x000018f4      0x1b4 tasks/tasks.o
+                0x000018f4                _Z11setup_songsv
+ .text._Z6r_mainv
+                0x00001aa8       0x44 tasks/tasks.o
+                0x00001aa8                _Z6r_mainv
+ .text._Z16Roomba_Send_Byteh
+                0x00001aec       0x10 uart/uart.o
+                0x00001aec                _Z16Roomba_Send_Byteh
+ .text._Z16Roomba_UART_Init9_uart_bps
+                0x00001afc       0x80 uart/uart.o
+                0x00001afc                _Z16Roomba_UART_Init9_uart_bps
+ .text.__vector_36
+                0x00001b7c       0x4c uart/uart.o
+                0x00001b7c                __vector_36
+ .text.libgcc.mul
+                0x00001bc8       0x1e c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_umulhisi3.o)
+                0x00001bc8                __umulhisi3
+                0x00001be6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001be6        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+                0x00001be6                _exit
+                0x00001be6                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001be6        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001bea                _etext = .
+
+.data           0x00800200       0xc0 load address 0x00001bea
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.ROOMBA_ADDRESSES
+                0x00800200       0x14 cops_and_robbers.o
+                0x00800200                ROOMBA_ADDRESSES
+ .data.BASE_ADDRESS
+                0x00800214        0x5 cops_and_robbers.o
+                0x00800214                BASE_ADDRESS
+ .data.periodic_task
+                0x00800219        0x2 oskernel.o
+                0x00800219                periodic_task
+ .data.idle_task
+                0x0080021b        0x2 oskernel.o
+                0x0080021b                idle_task
+ .data.EmptyStruct
+                0x0080021d        0xc periodic_scheduler.o
+                0x0080021d                EmptyStruct
+ .data._ZL14tx_last_status
+                0x00800229        0x1 radio/radio.o
+ .data._ZL10tx_history
+                0x0080022a        0x2 radio/radio.o
+ .data._ZL16rx_pipe0_address
+                0x0080022c        0x5 radio/radio.o
+ .data._ZL10tx_address
+                0x00800231        0x5 radio/radio.o
+ .data._ZL14rx_pipe_widths
+                0x00800236        0x6 radio/radio.o
+ .data.queue_end
+                0x0080023c        0x2 tasks/tasks.o
+                0x0080023c                queue_end
+ .data.queue_tail
+                0x0080023e        0x2 tasks/tasks.o
+                0x0080023e                queue_tail
+ *(.rodata)
+ .rodata        0x00800240       0x80 tasks/tasks.o
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008002c0                . = ALIGN (0x2)
+                0x008002c0                _edata = .
+                0x008002c0                PROVIDE (__data_end, .)
+
+.bss            0x008002c0      0xa39
+                0x008002c0                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.currentByte
+                0x008002c0        0x1 ir/ir.o
+                0x008002c0                currentByte
+ .bss.currentBit
+                0x008002c1        0x1 ir/ir.o
+                0x008002c1                currentBit
+ .bss.is_transmitting
+                0x008002c2        0x1 ir/ir.o
+                0x008002c2                is_transmitting
+ .bss.is_receiving
+                0x008002c3        0x1 ir/ir.o
+                0x008002c3                is_receiving
+ .bss._ZZ3NowE7millies
+                0x008002c4        0x2 os.o
+ .bss._ZL9error_msg
+                0x008002c6        0x1 os.o
+ .bss.ticks_remaining
+                0x008002c7        0x1 oskernel.o
+                0x008002c7                ticks_remaining
+ .bss._ZL15dead_pool_queue
+                0x008002c8        0x4 oskernel.o
+ .bss.service_queue
+                0x008002cc        0x4 oskernel.o
+                0x008002cc                service_queue
+ .bss.system_queue
+                0x008002d0        0x4 oskernel.o
+                0x008002d0                system_queue
+ .bss.rr_queue  0x008002d4        0x4 oskernel.o
+                0x008002d4                rr_queue
+ .bss.task_desc
+                0x008002d8      0x948 oskernel.o
+                0x008002d8                task_desc
+ .bss.cur_task  0x00800c20        0x2 oskernel.o
+                0x00800c20                cur_task
+ .bss.kernel_request_retval
+                0x00800c22        0x2 oskernel.o
+                0x00800c22                kernel_request_retval
+ .bss.kernel_request
+                0x00800c24        0x1 oskernel.o
+                0x00800c24                kernel_request
+ .bss.kernel_request_create_args
+                0x00800c25        0xb oskernel.o
+                0x00800c25                kernel_request_create_args
+ .bss.kernel_sp
+                0x00800c30        0x2 oskernel.o
+                0x00800c30                kernel_sp
+ .bss._ZL9error_msg
+                0x00800c32        0x1 oskernel.o
+ .bss._ZZ19Scheduler_StartTaskE2id
+                0x00800c33        0x1 periodic_scheduler.o
+ .bss._ZL10ready_task
+                0x00800c34        0x2 periodic_scheduler.o
+ .bss._ZL12last_runtime
+                0x00800c36        0x2 periodic_scheduler.o
+ .bss.periodic_tasks
+                0x00800c38       0x60 periodic_scheduler.o
+                0x00800c38                periodic_tasks
+ .bss._ZL9error_msg
+                0x00800c98        0x1 periodic_scheduler.o
+ .bss._ZL13transmit_lock
+                0x00800c99        0x1 radio/radio.o
+ .bss.flag_ir   0x00800c9a        0x1 tasks/tasks.o
+                0x00800c9a                flag_ir
+ .bss.shot_by   0x00800c9b        0x1 tasks/tasks.o
+                0x00800c9b                shot_by
+ .bss.flag_radio
+                0x00800c9c        0x1 tasks/tasks.o
+                0x00800c9c                flag_radio
+ .bss.angle     0x00800c9d        0x2 tasks/tasks.o
+                0x00800c9d                angle
+ .bss.speed     0x00800c9f        0x2 tasks/tasks.o
+                0x00800c9f                speed
+ .bss.myState   0x00800ca1        0x2 tasks/tasks.o
+                0x00800ca1                myState
+ .bss.game_state
+                0x00800ca3        0x1 tasks/tasks.o
+                0x00800ca3                game_state
+ .bss.queue_head
+                0x00800ca4        0x2 tasks/tasks.o
+                0x00800ca4                queue_head
+ .bss.network_queue
+                0x00800ca6       0x32 tasks/tasks.o
+                0x00800ca6                network_queue
+ .bss._ZL17uart_buffer_index
+                0x00800cd8        0x1 uart/uart.o
+ .bss._ZL11uart_buffer
+                0x00800cd9       0x20 uart/uart.o
+ *(COMMON)
+                0x00800cf9                PROVIDE (__bss_end, .)
+                0x00001bea                __data_load_start = LOADADDR (.data)
+                0x00001caa                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800cf9        0x0
+                0x00800cf9                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800cf9                PROVIDE (__noinit_end, .)
+                0x00800cf9                _end = .
+                0x00800cf9                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 cops_and_robbers.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 ir/ir.o
+ .comment       0x00000000       0x31 os.o
+ .comment       0x00000000       0x31 oskernel.o
+ .comment       0x00000000       0x31 periodic_scheduler.o
+ .comment       0x00000000       0x31 radio/radio.o
+ .comment       0x00000000       0x31 radio/spi.o
+ .comment       0x00000000       0x31 roomba/roomba.o
+ .comment       0x00000000       0x31 tasks/tasks.o
+ .comment       0x00000000       0x31 uart/uart.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 cops_and_robbers.o
+ .debug_aranges
+                0x00000018       0x58 ir/ir.o
+ .debug_aranges
+                0x00000070       0x80 os.o
+ .debug_aranges
+                0x000000f0       0x88 oskernel.o
+ .debug_aranges
+                0x00000178       0x40 periodic_scheduler.o
+ .debug_aranges
+                0x000001b8       0x90 radio/radio.o
+ .debug_aranges
+                0x00000248       0x38 radio/spi.o
+ .debug_aranges
+                0x00000280       0x50 roomba/roomba.o
+ .debug_aranges
+                0x000002d0       0x98 tasks/tasks.o
+ .debug_aranges
+                0x00000368       0x48 uart/uart.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x48f2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xe6 cops_and_robbers.o
+ .debug_info    0x000000e6      0x2f0 ir/ir.o
+ .debug_info    0x000003d6      0x888 os.o
+ .debug_info    0x00000c5e      0x8ca oskernel.o
+ .debug_info    0x00001528      0x42c periodic_scheduler.o
+ .debug_info    0x00001954     0x109e radio/radio.o
+ .debug_info    0x000029f2      0x174 radio/spi.o
+ .debug_info    0x00002b66      0xe0e roomba/roomba.o
+ .debug_info    0x00003974      0xdad tasks/tasks.o
+ .debug_info    0x00004721      0x1d1 uart/uart.o
+
+.debug_abbrev   0x00000000     0x1452
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x56 cops_and_robbers.o
+ .debug_abbrev  0x00000056      0x196 ir/ir.o
+ .debug_abbrev  0x000001ec      0x2a0 os.o
+ .debug_abbrev  0x0000048c      0x2b1 oskernel.o
+ .debug_abbrev  0x0000073d      0x1c6 periodic_scheduler.o
+ .debug_abbrev  0x00000903      0x3a2 radio/radio.o
+ .debug_abbrev  0x00000ca5       0xd6 radio/spi.o
+ .debug_abbrev  0x00000d7b      0x28d roomba/roomba.o
+ .debug_abbrev  0x00001008      0x328 tasks/tasks.o
+ .debug_abbrev  0x00001330      0x122 uart/uart.o
+
+.debug_line     0x00000000     0x247d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0xa8 cops_and_robbers.o
+ .debug_line    0x000000a8      0x2f8 ir/ir.o
+ .debug_line    0x000003a0      0x4b8 os.o
+ .debug_line    0x00000858      0x5a7 oskernel.o
+ .debug_line    0x00000dff      0x20f periodic_scheduler.o
+ .debug_line    0x0000100e      0x6ef radio/radio.o
+ .debug_line    0x000016fd      0x15f radio/spi.o
+ .debug_line    0x0000185c      0x4e6 roomba/roomba.o
+ .debug_line    0x00001d42      0x572 tasks/tasks.o
+ .debug_line    0x000022b4      0x1c9 uart/uart.o
+
+.debug_frame    0x00000000      0xa28
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x110 ir/ir.o
+ .debug_frame   0x00000110      0x168 os.o
+ .debug_frame   0x00000278      0x100 oskernel.o
+ .debug_frame   0x00000378       0xc4 periodic_scheduler.o
+ .debug_frame   0x0000043c      0x268 radio/radio.o
+ .debug_frame   0x000006a4       0x54 radio/spi.o
+ .debug_frame   0x000006f8      0x104 roomba/roomba.o
+ .debug_frame   0x000007fc      0x198 tasks/tasks.o
+ .debug_frame   0x00000994       0x94 uart/uart.o
+
+.debug_str      0x00000000     0x1877
+ *(.debug_str)
+ .debug_str     0x00000000      0x1b2 cops_and_robbers.o
+                                0x1e6 (size before relaxing)
+ .debug_str     0x000001b2      0x1bd ir/ir.o
+                                0x2f0 (size before relaxing)
+ .debug_str     0x0000036f      0x402 os.o
+                                0x615 (size before relaxing)
+ .debug_str     0x00000771      0x1a1 oskernel.o
+                                0x6b4 (size before relaxing)
+ .debug_str     0x00000912       0x5b periodic_scheduler.o
+                                0x459 (size before relaxing)
+ .debug_str     0x0000096d      0x62f radio/radio.o
+                                0x896 (size before relaxing)
+ .debug_str     0x00000f9c       0x11 radio/spi.o
+                                0x23b (size before relaxing)
+ .debug_str     0x00000fad      0x513 roomba/roomba.o
+                                0x981 (size before relaxing)
+ .debug_str     0x000014c0      0x36e tasks/tasks.o
+                                0xa99 (size before relaxing)
+ .debug_str     0x0000182e       0x49 uart/uart.o
+                                0x2fd (size before relaxing)
+
+.debug_loc      0x00000000     0x1f90
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1c7 ir/ir.o
+ .debug_loc     0x000001c7      0x5dd os.o
+ .debug_loc     0x000007a4      0x167 oskernel.o
+ .debug_loc     0x0000090b      0x228 periodic_scheduler.o
+ .debug_loc     0x00000b33      0xa4c radio/radio.o
+ .debug_loc     0x0000157f       0xfb radio/spi.o
+ .debug_loc     0x0000167a      0x460 roomba/roomba.o
+ .debug_loc     0x00001ada      0x385 tasks/tasks.o
+ .debug_loc     0x00001e5f      0x131 uart/uart.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x308
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x48 ir/ir.o
+ .debug_ranges  0x00000048       0x70 os.o
+ .debug_ranges  0x000000b8       0x78 oskernel.o
+ .debug_ranges  0x00000130       0x30 periodic_scheduler.o
+ .debug_ranges  0x00000160       0x80 radio/radio.o
+ .debug_ranges  0x000001e0       0x28 radio/spi.o
+ .debug_ranges  0x00000208       0x40 roomba/roomba.o
+ .debug_ranges  0x00000248       0x88 tasks/tasks.o
+ .debug_ranges  0x000002d0       0x38 uart/uart.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(fuckingwork.elf elf32-avr)
+LOAD linker stubs
